@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+.open{
+    transition: 500ms;
+    transform: translateX(0px);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    width: 100vw;
+    overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.close{
+    transition: 500ms;
+    transform: translateX(400px);
+}
+
+.sidemenu{
+    width: 400px;
+    height: 100vh;
+    position: absolute;
+    z-index:5;
+    top:0;
+    right:0;
+    background-color: rgb(116, 180, 236);
+    /* transform: translateX(200px); */
+}
+
+@keyframes spin-logo {
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.animate-logo{
+    animation: spin-logo 10s linear 10s;
+}
+
+.img-bg{
+    /* background-image: url('/public/assets/pexels-alex-andrews-3805983.jpg'); */
+    background-image: url('/public/assets/pexels-asim-alnamat-32997.jpg');
+    /* background-image: url('/public/assets/pexels-frank-cone-2495173.jpg'); */
+    /* filter: blur(4px); */
+    background-size: cover;
+}
+
+.pattern-bg{
+    /* background-image: url('/public/assets/background/pexels-henry-&-co-1939485.jpg'); */
+    /* background-image: url('/public/assets/background/pexels-mnm-zameer-3308588.jpg'); */
+    background-image: url('/public/assets/background/double-bubble-outline.png');
+    background-size: none;
+    /* background-repeat: no-repeat; */
+}
+
+.loadingSpinnerContainer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 5000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .loadingSpinner {
+    width: 64px;
+    height: 64px;
+    border: 8px solid;
+    border-color: #000 transparent #555 transparent;
+    border-radius: 50%;
+    animation: spin 1.2s linear infinite;
   }
-  to {
-    transform: rotate(360deg);
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
   }
-}
+  
