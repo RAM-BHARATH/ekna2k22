@@ -45,9 +45,19 @@ body{
 .pattern-bg{
     /* background-image: url('/public/assets/background/pexels-henry-&-co-1939485.jpg'); */
     /* background-image: url('/public/assets/background/pexels-mnm-zameer-3308588.jpg'); */
-    background-image: url('/public/assets/background/double-bubble-outline.png');
+    /* background-image: url('/public/assets/background/double-bubble-outline.png'); */
+    background-image: url('/public/assets/background/vecteezy_diamond-pattern-background-with-rose-gold-foil-texture_6530006.jpg');
     background-size: none;
     /* background-repeat: no-repeat; */
+}
+
+.pattern-bg-2{
+    background-color: #e5e5f7;
+    opacity: 1;
+    background-image:  linear-gradient(135deg, #d5d5d5 25%, transparent 25%), linear-gradient(225deg, #d5d5d5 25%, transparent 25%), linear-gradient(45deg, #d5d5d5 25%, transparent 25%), linear-gradient(315deg, #d5d5d5 25%, #e5e5f7 25%);
+    background-position:  7px 0, 7px 0, 0 0, 0 0;
+    background-size: 7px 7px;
+    background-repeat: repeat;
 }
 
 .loadingSpinnerContainer {
@@ -80,4 +90,32 @@ body{
       transform: rotate(360deg);
     }
   }
-  
+
+.transition-transform-slow{
+    transition-duration: 500ms !important;
+}
+
+.event-box{
+    height: 200px;
+    width: 320px;
+    border-radius: 10px;
+    background-color: #555;
+    margin: 10px;
+}
+
+.img-bg-2{
+    /* background-image: url('/public/assets/background/desc_background.jpeg'); */
+    background-image: url('/public/assets/background/5040007.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* @keyframes scroll {
+    0% {
+        transform: translateX();
+    }
+} */
+
+.infinite-scroll{
+    /* transform: translateX(200px); */
+}
