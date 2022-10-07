@@ -79,7 +79,11 @@ function Sponsors() {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil laudantium alias consequatur possimus illum ut perspiciatis tempore est similique ad, nam minima, quibusdam ipsum aspernatur rem modi cupiditate temporibus soluta?
                 </div>
                 <button className='px-4 py-3 rounded-md bg-white text-black my-3 hover:bg-slate-100'>
-                    <a href="https://drive.google.com/file/d/1X62cKUkSuhuMtoX2z9tFktrcX0xaDFvH/view?usp=sharing">Sponsors Brochure</a>
+                    <a 
+                        href="https://drive.google.com/file/d/1X62cKUkSuhuMtoX2z9tFktrcX0xaDFvH/view?usp=sharing" 
+                        target='_blank' rel='noreferrer'>
+                            Sponsors Brochure
+                    </a>
                 </button>
                 <h2 className='text-2xl w-fit mx-auto my-5'>For help, Contact:</h2>
                 <div className='lg:w-2/3 text-justify mx-auto my-10'>

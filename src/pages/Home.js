@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import Header from '../components/Header'
 import Main from '../components/Main'
 import Loading from '../components/Loading'
+import Footer from '../components/Footer';
 
 function Home({ loading }) {
   // useEffect(() => {
@@ -16,6 +17,7 @@ function Home({ loading }) {
     <div className="w-screen bg-cyan-900 body">
         <Header />
         <Main />
+        <Footer />
     </div>
   )
 }

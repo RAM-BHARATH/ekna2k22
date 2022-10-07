@@ -33,6 +33,10 @@ function IndEvent({ indEvent }) {
                 <div className='my-3'>Lorem</div>
               </div>
               <div className='text-center'>
+                <img src="assets/icons/trophy.svg" alt="" className='w-24'/>
+                <div className='my-3'>Lorem</div>
+              </div>
+              <div className='text-center'>
                 <img src="assets/icons/sand-clock.svg" alt="" className='w-24'/>
                 <div className='my-3'>Lorem</div>
               </div>

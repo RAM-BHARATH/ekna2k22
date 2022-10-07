@@ -18,7 +18,7 @@ function Header({ bg }) {
           <div className='flex items-center'>
             <div>
               <a href="/student-ambassador">
-                <button className='z-10 px-2 py-1 bg-white m-auto rounded-md' onClick={sideMenuToggle}>
+                <button className='z-10 px-2 py-1 bg-white m-auto rounded-md'>
                   Become an ambassador
                 </button>
               </a>
