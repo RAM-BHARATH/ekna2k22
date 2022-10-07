@@ -6,9 +6,13 @@ import EventList from '../components/EventList';
 
 function Events({ eventsList }) {
 
+
+
   useEffect(()=>{
     document.title = 'Events List | Ekna2k22'
   }, []);
+
+  
 
   return (
     <div>

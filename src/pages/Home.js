@@ -14,7 +14,7 @@ function Home({ loading }) {
     document.title = 'Home | Ekna2k22'
   }, []);
   return (
-    <div className="w-screen bg-cyan-900 body">
+    <div className="w-screen bg-cyan-900 body scroll-smooth transition-all">
         <Header />
         <Main />
         <Footer />

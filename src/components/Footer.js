@@ -38,7 +38,9 @@ function Footer() {
                     <div className='underline text-center'><a href="/student-ambassador">Stuent Ambassador</a></div>
                     <div className='underline text-center'><a href="/register">Register</a></div>
                     <div className='underline text-center'><a href="/sponsors">Sponsorship</a></div>
-                    <h2 className='text-center text-3xl my-4'>Contact</h2>
+                    <a id="contact">
+                        <h2 className='text-center text-3xl my-4' id='contact'>Contact</h2>
+                    </a>
                     <div className='mx-auto w-fill'>
                         <p>Lorem Lorem Lorem</p>
                         <p>Lorem Lorem Lorem</p>

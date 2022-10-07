@@ -13,9 +13,7 @@ function StudentAmbassador() {
                 <div className='my-24'>
                     <h1 className='text-4xl'>STUDENT AMBASSADOR</h1>
                     <div className='p-3 lg:mx-auto lg:w-2/3 text-justify'>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quos magni cupiditate quo, ex rem eligendi eius dolores! Explicabo recusandae iste deserunt est voluptatum deleniti hic reprehenderit impedit excepturi provident.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi explicabo ad nemo veritatis voluptatibus aspernatur exercitationem quo in blanditiis. Excepturi alias corporis sapiente obcaecati ea? Provident porro unde earum commodi.
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum similique quam distinctio optio velit sunt vero aliquam, alias libero illo error esse facilis debitis tenetur repellendus perspiciatis nulla ipsum minus.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit officiis voluptates obcaecati. Illum laborum aliquam quo porro impedit dolorem. Nobis, dolor ullam tenetur velit non ut quae temporibus totam voluptate voluptas odit adipisci dolorem similique voluptatibus hic impedit qui eligendi aliquam ad. Ex consectetur, ea minus, officia, numquam porro alias ut nisi facilis exercitationem eos hic ducimus. Fugiat eaque deserunt delectus alias, dignissimos animi eum natus vitae corrupti quisquam maxime asperiores vero tempore ullam quas aut quia in libero atque est nulla earum. Sunt labore officia cupiditate sed dolorum provident eligendi quas laboriosam aliquam mollitia nam eius amet rem aperiam a repellat atque, animi expedita ab debitis ratione optio. Id ullam minima maiores. Mollitia aut voluptatibus numquam! Deleniti sit voluptatum cumque distinctio tenetur voluptatem amet sed iure! Hic harum nihil sequi nobis provident, voluptatibus atque repellendus ipsa fugiat vitae nemo vero eum quasi repellat similique, dolores officiis eius dicta asperiores praesentium illo impedit tempora architecto? Nisi sapiente asperiores sequi laborum sunt ab dicta id omnis fugiat labore porro temporibus, nostrum suscipit natus odio quae quaerat voluptatum eius deserunt dolorum, in illum necessitatibus, ducimus recusandae? Eius dolore, nobis, iusto facere itaque laborum obcaecati ipsa possimus quibusdam adipisci rerum veniam quis nisi.
                     </div>
                     <h2 className='text-3xl w-fit mx-auto border-b-black border-b-2'>Work of a Student Ambassador</h2>
                     <div className='p-3 lg:mx-auto lg:w-2/3 text-justify'>
@@ -84,6 +82,7 @@ function StudentAmbassador() {
                             </tr>
                         </tbody>
                     </table>
+                    <a href="https://forms.gle/GMVkSy3wo4SZgygg7" target='_blank' rel="noreferrer" className='px-3 py-2 bg-slate-500 rounded-md text-white hover:bg-black'>Become a Student Ambassador</a>
                 </div>
             </div>
         </div>

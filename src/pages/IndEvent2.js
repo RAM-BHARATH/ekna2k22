@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import IndHeader from '../components/IndHeader'
 
-function IndEvent({ indEvent }) {
+function IndEvent2({ indEvent }) {
 
   useEffect(()=>{
     document.title = `${indEvent.eventName} | Ekna2k22`
@@ -41,7 +41,10 @@ function IndEvent({ indEvent }) {
                 <div className='my-3'>Lorem</div>
               </div>
               <div className='py-2 px-3 rounded-md bg-cyan-900'>
-                <a href={indEvent.registrationLink} className='text-white'>Register</a>
+                <a href={indEvent.registrationLink1} className='text-white'>Solo Registration</a>
+              </div>
+              <div className='py-2 px-3 rounded-md bg-cyan-900'>
+                <a href={indEvent.registrationLink2} className='text-white'>Group Registration</a>
               </div>
             </div>
             <p>{indEvent.description + indEvent.description + indEvent.description}</p>
@@ -52,4 +55,4 @@ function IndEvent({ indEvent }) {
   )
 }
 
-export default IndEvent
+export default IndEvent2

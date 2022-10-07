@@ -18,8 +18,8 @@ function IndHeader({ bg }) {
           <div className='flex items-center'>
             <div>
               <a href="/student-ambassador">
-                <button className='z-10 px-2 py-1 bg-white m-auto rounded-md'>
-                  Become an ambassador
+                <button className='z-10 px-1 py-1 bg-white m-auto rounded-md'>
+                  Student Ambassador
                 </button>
               </a>
             </div>
@@ -42,12 +42,17 @@ function IndHeader({ bg }) {
             </li>
             <li className='hover:text-cyan-700 hover:scale-110 transition-transform transition-transform-slow'>
               <a href="/student-ambassador">
-                BECOME STUDENTS AMBASSADOR
+                STUDENT AMBASSADOR
               </a>
             </li>
             <li className='hover:text-cyan-700 hover:scale-110 transition-transform transition-transform-slow'>
               <a href="/sponsors">
                 SPONSORS
+              </a>
+            </li>
+            <li className='hover:text-cyan-700 hover:scale-110 transition-transform transition-transform-slow'>
+              <a href="/#contact">
+                HELP
               </a>
             </li>
           </ul>
