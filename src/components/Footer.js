@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <div className='w-full'>
-        <div className='flex'>
+        <div className='flex text-white flex-wrap'>
             <div className='flex flex-col w-full lg:w-1/3  p-4'>
                 <div className='flex flex-col jusitfy-center'>
                     <h2 className='text-center text-2xl my-4'>Location</h2>
