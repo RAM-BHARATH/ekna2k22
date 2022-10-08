@@ -13,7 +13,7 @@ function NonTechEventTemplate({ indEvent }) {
       <div className='w-screen min-h-screen pattern-bg-2'>
         <div className='min-h-screen z-0 p-5'>
           <div className='z-5 lg:w-2/3  my-24 mx-auto flex flex-col justify-center items-center'>
-            <h1 className='text-4xl mb-10 cookie'>{indEvent.eventName}</h1>
+            {/* <h1 className='text-4xl mb-10 cookie'>{indEvent.eventName}</h1> */}
             <img src={indEvent.imgUrl} alt="" className='w-screen lg:w-1/2 rounded-md'/>
             <div className='flex flex-wrap items-baseline justify-center lg:w-1/2 gap-12 lg:gap-24 mx-auto my-10 tex'>
               <div className='text-center'>
