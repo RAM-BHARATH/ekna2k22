@@ -17,11 +17,11 @@ function Main() {
             Ekna'22 is a National Level Techno-Cultural Fest that will be held on November 4,2022. It is a whimsical creation of the staff and students at AURCC's Electrical and Electronics Engineering department for the first time ever .On this auspicious occasion, 7 technical and 10 cultural events are scheduled to be conducted.Some of the activities of the Techno-Cultural Fest include Electro-Matrix, IQuid, Analogy-O-Mania, Paper presentation, Fashion show, Slick Standups, Music,Dance,Shortfilm, Photography and a lot  more. It is a unique window of opportunity for students from various disciplines to demonstrate their abilities and expertise. This event will undoubtedly give an opportunity for aspiring engineers  to develop their abilities and improve their performance. We take immense pleasure to welcome you all to Ekna'22 which will indubitably be "The Rise " for each and every individual who turns up for this Energy packed and Exciting event. We guarantee you the best day that you can have inside our campus and we hope  you can carry those memories along with you. Participate in numerous events for a registration fee of Rs 150 and gear yourself up for   an ethereal experience on November 4,2022.
           </p>
         </div>
-        <iframe className='my-5 w-4/5' src="https://www.youtube.com/embed/MWCQqFZTLCA" title="MERN Stack Full Tutorial | User Authentication, MongoDB, Node.js, JsonWebToken React Beginner Course" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        <iframe className='my-5 w-4/5 lg:h-72 lg:w-96' src="https://www.youtube.com/watch?v=X6VaBPzjh6A" title="EKNA 2k22" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
         <div className='flex flex-wrap w-full py-10 justify-center items-center'>
           <div className='w-full lg:w-1/2'>
-            <img src="/assets/ticket.svg" alt="" className='w-48 mx-auto'/>
+            <img src="/assets/ticket.svg" alt="" className='w-48 mx-auto lg:w-72'/>
           </div>
           <div className='w-4/5 mx-auto lg:w-1/2'>
             <ul className='mx-auto list-disc text-white font-bold monts'>
@@ -37,7 +37,7 @@ function Main() {
       <div className='w-screen flex flex-col justify-center items-center bg-zinc-800  pb-2'>
         <h2 className='text-5xl lg:text-6xl text-white mb-5 text-center cookie'>Our Sponsors</h2>
         <div className='flex justify-center p-2'>
-          <img src="/assets/sponsors/twin-birds.jpeg" alt="" className='w-2/3'/>
+          <img src="/assets/sponsors/twin-birds.jpeg" alt="" className='w-2/3 lg:w-96'/>
         </div>
       </div>
     </>

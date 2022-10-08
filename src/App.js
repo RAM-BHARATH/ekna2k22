@@ -216,23 +216,18 @@ function App() {
       ]
     },
     {
-      eventName: ['Dance', 'Solo Dance', 'Group Dance'],
+      eventName: 'Solo Dance',
       id: 'event-non-tech-1',
       type: 1,
-      imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
+      imgUrl: '/assets/event_images/solo dance.jpg',
       eventUrl:'events/non-tech/1',
-      registrationLink1: 'https://forms.gle/JBQZCfxknUqReLE68',
-      registrationLink2: 'https://forms.gle/GHauiMkg1vk3yBQFA',
-      description: [
-        'Did you have a unique skill in dance ? then this contest is for you .Solo dance is a contest that is performed by an Individual with the sound track ,Here you can express your own talent &Skills.',
-        'Euphoria is a group dance contest where the dance troops are welcomed to give us a frenetic perfomance.'
-      ],
+      registrationLink: 'https://forms.gle/JBQZCfxknUqReLE68',
+      description: 'Did you have a unique skill in dance ? then this contest is for you .Solo dance is a contest that is performed by an Individual with the sound track ,Here you can express your own talent &Skills.',
       location: 'Seminar Hall',
       date: 'Nov 4',
       time: '10:00am',
       prize:["I - ", "II - ", "III- "],
       rules: [
-        [
           'Any style of Dance is allowed',
           'Track limit should be within 3:30 min',
           'Sound track should be sent before two days',
@@ -240,29 +235,16 @@ function App() {
           'Props can be used',
           'No vulgarity in music/Performance/costumes',
           'Judges decision is final',
-          'The general rules & Regulation should be followed otherwise the team will be disqualified.'
-        ],
-        [
-          'No of participants (5-15)',
-          'Any style of dance is allowed',
-          'Sound track should be within (3-4) mins',
-          'Prelims will be there',
-          'No vulgarity in music/costume/perfomance',
-          'Sound track should be sent before two days',
-          'Judges decision is final',
-          'The general rules & the time limits should be strictly followed otherwise the team will get eliminated'
-        ]
       ],
       eventOrganizers: [
-        ['Sakthivel GR-9789735839'],
-        ['Sakthivel GR-9789735839']
+        'Sakthivel GR-9789735839'
       ]
     },
     {
       eventName: 'Euphony',
       id: 'event-non-tech-2',
       type: 1,
-      imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
+      imgUrl: '/assets/event_images/euphony.jpg',
       eventUrl:'events/non-tech/2',
       registrationLink: 'https://forms.gle/y1qxsUgvGdLgNfLA6',
       description: 'Euphony is a grand solo singing event which is a great platform for all singers to showcase their innate talent through their euphonious voice. So do participate and  gear yourself up for an exhilarating event..',
@@ -287,7 +269,7 @@ function App() {
       eventName: 'PicaShow',
       id: 'event-non-tech-3',
       type: 1,
-      imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
+      imgUrl: '/assets/event_images/pica show.jpg',
       eventUrl:'events/non-tech/3',
       registrationLink: 'https://forms.gle/CLhBBkgG8nGLbKaw6',
       description: 'PicaShow is a modern art contest where the artists have chance to show their fantastic painting. ',
@@ -316,7 +298,7 @@ function App() {
       eventName: 'Fashion Crisco',
       id: 'event-non-tech-4',
       type: 1,
-      imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
+      imgUrl: '/assets/event_images/fashion.jpg',
       eventUrl:'events/non-tech/4',
       registrationLink: 'https://forms.gle/SiTdVHSHCnQExWySA',
       description: 'Fashion crisco is a show that provides the platform for the fashion designers to showcase their work and skills',
@@ -342,7 +324,7 @@ function App() {
       eventName: 'Slick Standups',
       id: 'event-non-tech-5',
       type: 1,
-      imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
+      imgUrl: '/assets/event_images/standup.jpg',
       eventUrl:'events/non-tech/5',
       registrationLink: 'https://forms.gle/QtYY8tYEbBA77GYSA',
       description: 'Slick Standups is nothing but a standup comedy event. It Is An Individual Competition. Participants Will Be Judged On The Basis Of Content, fluency, Spontaneity, Presentation & Sense Of Humor.',
@@ -364,7 +346,7 @@ function App() {
       eventName: 'Shutter bug',
       id: 'event-non-tech-6',
       type: 1,
-      imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
+      imgUrl: '/assets/event_images/photography.jpg',
       eventUrl:'events/non-tech/6',
       registrationLink: 'https://forms.gle/z4ufAc8EGyQPNaUM9',
       description: 'Are you the person with the beautiful eyes who captures the moment with your magical device? then this platform is for you to showcase the moments captured by you. Theme : Architecture, Emotion, Reflection ,Women empowerment ,Child labour',
@@ -385,7 +367,7 @@ function App() {
       eventName: 'Nadiganda',
       id: 'event-non-tech-7',
       type: 1,
-      imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
+      imgUrl: '/assets/event_images/mime.jpg',
       eventUrl:'events/non-tech/7',
       registrationLink: 'https://forms.gle/PVnBhBAkenG7zJPF6',
       description: 'Nadiganda is a group mime event . It is a theatrical technique of suggesting action, character or emotion without words, using only gesture, expression and movement .',
@@ -406,7 +388,7 @@ function App() {
       eventName: 'Shorty Cutz',
       id: 'event-non-tech-8',
       type: 1,
-      imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
+      imgUrl: '/assets/event_images/Short film.jpg',
       eventUrl:'events/non-tech/8',
       registrationLink: 'https://forms.gle/CUBFL2N2tM2cZd3Z8',
       location: 'Seminar Hall',
@@ -428,32 +410,36 @@ function App() {
       ]
     },
     {
-      eventName: 'Adverza',
+      eventName: 'Group Dance',
       id: 'event-non-tech-9',
       type: 1,
-      imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
+      imgUrl: '/assets/event_images/Euphoria.jpg',
       eventUrl:'events/non-tech/9',
-      registrationLink: 'https://forms.gle/E1K885svUp8mDmz79',
-      description: 'Adverza is an adsup event . Where every team is to advertise the given products by sketching and by acting in their own way . The team  which gives performance in more humour and innovative way will be rewarded .',
+      registrationLink: 'https://forms.gle/GHauiMkg1vk3yBQFA',
+      description: 'Euphoria is a group dance contest where the dance troops are welcomed to give us a frenetic perfomance.',
       location: 'Seminar Hall',
       date: 'Nov 4',
       time: '10:00am',
       prize:["I - ", "II - ", "III- "],
       rules: [
-        'Maximum of 4-6 members per team.',
-        'This may be of two rounds - Advertisement sketching round and Advertisement acting round',
-        'The team should bring their own properties for both rounds .(only chart papers will be given for sketching.)',
-        'For sketching round maximum  of 15 mins will be given and for acting 30 mins for preperation and 5 mins for acting.'
+        'No of participants (5-15)',
+        'Any style of dance is allowed',
+        'Sound track should be within (3-4) mins',
+        'Prelims will be there',
+        'No vulgarity in music/costume/perfomance',
+        'Sound track should be sent before two days',
+        'Judges decision is final',
+        'The general rules & the time limits should be strictly followed otherwise the team will get eliminated'
       ],
       eventOrganizers: [
-        'Obliraj R - 7010069143'
+        'Sakthivel GR - 9789735839'
       ]
     },
     {
       eventName: 'QUIZITE (Quiz)',
       id: 'event-non-tech-10',
       type: 1,
-      imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
+      imgUrl: '/assets/event_images/quiz.jpg',
       eventUrl:'events/non-tech/10',
       registrationLink: 'https://forms.gle/Ba9cydpn4xohY5L57',
       description: 'Quizite is a group quiz competition where contestants are welcomed to show their extensive knowledge.',
@@ -489,7 +475,7 @@ function App() {
           <Route element={<IndEvent indEvent={eventsList[4]}/>} path="/events/tech/5"/>
           <Route element={<IndEvent indEvent={eventsList[5]}/>} path="/events/tech/6"/>
           <Route element={<IndEvent4 indEvent={eventsList[6]}/>} path="/events/tech/7"/>
-          <Route element={<IndEvent2 indEvent={eventsList[7]}/>} path="/events/non-tech/1"/>
+          <Route element={<NonTechEventTemplate indEvent={eventsList[7]}/>} path="/events/non-tech/1"/>
           <Route element={<NonTechEventTemplate indEvent={eventsList[8]}/>} path="/events/non-tech/2"/>
           <Route element={<NonTechEventTemplate indEvent={eventsList[9]}/>} path="/events/non-tech/3"/>
           <Route element={<NonTechEventTemplate indEvent={eventsList[10]}/>} path="/events/non-tech/4"/>
