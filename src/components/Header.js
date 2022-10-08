@@ -18,7 +18,8 @@ function Header({ bg }) {
           </a>
           <div className='flex items-center'>
             <div>
-              <a href="/student-ambassador" className='z-10 px-2 py-1 text-sm bg-blue-400 text-gray-800 m-auto rounded-md gemunu'>
+              <a href="/student-ambassador" className='z-10 px-2 py-1 text-sm bg-orange-100 text-gray-800 m-auto rounded-md gemunu'>
+                {/* bg-blue-400 */}
                   Student Ambassador
               </a>
             </div>
