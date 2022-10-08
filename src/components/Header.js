@@ -28,7 +28,7 @@ function Header({ bg }) {
             </button>
           </div>
         </ul>
-        <nav className={`sidemenu ${ sideMenu ?'open':'close' }`}>
+        <nav className={`sidemenu ${ sideMenu ?'open':'close' } monts font-bold`}>
           <ul className='flex flex-col justify-center items-center h-screen text-cyan-50 text-lg'>
             <li className='hover:text-cyan-700 hover:scale-110 transition-transform transition-transform-slow'>
               <a href="/">

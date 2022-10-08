@@ -20,7 +20,7 @@ body{
     z-index:5;
     top:0;
     right:0;
-    background-color: rgb(116, 180, 236);
+    background-color: rgb(6 182 212);
     /* transform: translateX(200px); */
 }
 
@@ -130,7 +130,7 @@ body{
 }
 .animate-infinite {
     width: 750%;
-    animation: marquee 20s linear infinite;
+    animation: marquee 25s linear infinite;
     top: 50%;
     transform: translate(0, -50%);
 }

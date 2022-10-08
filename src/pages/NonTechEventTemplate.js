@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import IndHeader from '../components/IndHeader'
 
-function IndEvent2({ indEvent }) {
+function NonTechEventTemplate({ indEvent }) {
 
   useEffect(()=>{
     document.title = `${indEvent.eventName} | Ekna2k22`
@@ -13,9 +13,9 @@ function IndEvent2({ indEvent }) {
       <div className='w-screen min-h-screen pattern-bg-2'>
         <div className='min-h-screen z-0 p-5'>
           <div className='z-5 lg:w-2/3  my-24 mx-auto flex flex-col justify-center items-center'>
-            <h1 className='text-5xl mb-10 cookie'>{indEvent.eventName[0]}</h1>
+            <h1 className='text-4xl mb-10 cookie'>{indEvent.eventName}</h1>
             <img src={indEvent.imgUrl} alt="" className='w-screen lg:w-1/2 rounded-md'/>
-            <div className='flex flex-wrap items-center justify-center lg:w-1/2 gap-12 lg:gap-24 mx-auto my-10'>
+            <div className='flex flex-wrap items-baseline justify-center lg:w-1/2 gap-12 lg:gap-24 mx-auto my-10 tex'>
               <div className='text-center'>
                 <img src="/assets/icons/location.svg" alt="" className='w-24'/>
                 <div className='my-3'>{indEvent.location}</div>
@@ -30,7 +30,7 @@ function IndEvent2({ indEvent }) {
               </div>
               {/* <div className='text-center'>
                 <img src="/assets/icons/contact.svg" alt="" className='w-24'/>
-                <div className='my-3'>{indEvent.}</div>
+                <div className='my-3'>Lorem</div>
               </div> */}
               <div className='text-center'>
                 <img src="/assets/icons/trophy.svg" alt="" className='w-24'/>
@@ -44,36 +44,21 @@ function IndEvent2({ indEvent }) {
               </div>
               {/* <div className='text-center'>
                 <img src="/assets/icons/sand-clock.svg" alt="" className='w-24'/>
-                <div className='my-3'>{indEvent.}</div>
+                <div className='my-3'>Lorem</div>
               </div> */}
               <div className='py-2 px-3 rounded-md bg-cyan-900'>
-                <a href={indEvent.registrationLink1} className='text-white'>Solo Registration</a>
-              </div>
-              <div className='py-2 px-3 rounded-md bg-cyan-900'>
-                <a href={indEvent.registrationLink2} className='text-white'>Group Registration</a>
+                <a href={indEvent.registrationLink} className='text-white'>Register</a>
               </div>
             </div>
-            <h3 className='cookie text-4xl text-left w-full'>{indEvent.eventName[1]}</h3>
             <h3 className='cookie text-3xl text-left w-full'>Description</h3>
-            <p className='text-justify monts'>{indEvent.description[0]}</p>
+            <p className='text-justify monts'>{indEvent.description}</p>
             <h3 className='cookie text-3xl text-left w-full mt-8 mb-4'>Rules and Regulations</h3>
             <ul className='list-decimal w-4/5'>
-                {indEvent.rules[0].map((rule, index) => <li key={index} className='monts'>{rule}</li>)}
-            </ul>
-            <h3 className='cookie text-3xl text-left w-full mt-8 mb-4'>Event Organizers</h3>
-            <ul className='list-decimal w-4/5 mb-10'>
-                {indEvent.eventOrganizers[0].map((organizer, index) => <li key={index} className='monts'>{organizer}</li>)}
-            </ul>
-            <h3 className='cookie text-4xl text-left w-full mb-3'>{indEvent.eventName[2]}</h3>
-            <h3 className='cookie text-3xl text-left w-full'>Description</h3>
-            <p className='text-justify monts'>{indEvent.description[1]}</p>
-            <h3 className='cookie text-3xl text-left w-full mt-8 mb-4'>Rules and Regulations</h3>
-            <ul className='list-decimal w-4/5'>
-                {indEvent.rules[1].map((rule, index) => <li key={index} className='monts'>{rule}</li>)}
+                {indEvent.rules.map((rule, index) => <li key={index} className='monts'>{rule}</li>)}
             </ul>
             <h3 className='cookie text-3xl text-left w-full mt-8 mb-4'>Event Organizers</h3>
             <ul className='list-decimal w-4/5'>
-                {indEvent.eventOrganizers[1].map((organizer, index) => <li key={index} className='monts'>{organizer}</li>)}
+                {indEvent.eventOrganizers.map((organizer, index) => <li key={index} className='monts'>{organizer}</li>)}
             </ul>
           </div>
         </div>
@@ -82,4 +67,4 @@ function IndEvent2({ indEvent }) {
   )
 }
 
-export default IndEvent2
+export default NonTechEventTemplate

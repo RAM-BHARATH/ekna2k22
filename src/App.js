@@ -7,6 +7,7 @@ import IndEvent from './pages/IndEvent';
 import IndEvent2 from './pages/IndEvent2';
 import IndEvent3 from './pages/IndEvent3';
 import IndEvent4 from './pages/IndEvent4';
+import NonTechEventTemplate from './pages/NonTechEventTemplate';
 import StudentAmbassador from './pages/StudentAmbassador';
 import Sponsors from './pages/Sponsors';
 
@@ -215,39 +216,127 @@ function App() {
       ]
     },
     {
-      eventName: 'Dance',
+      eventName: ['Dance', 'Solo Dance', 'Group Dance'],
       id: 'event-non-tech-1',
       type: 1,
       imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
       eventUrl:'events/non-tech/1',
       registrationLink1: 'https://forms.gle/JBQZCfxknUqReLE68',
-      registrationLink2: 'https://forms.gle/GHauiMkg1vk3yBQFA'
+      registrationLink2: 'https://forms.gle/GHauiMkg1vk3yBQFA',
+      description: [
+        'Did you have a unique skill in dance ? then this contest is for you .Solo dance is a contest that is performed by an Individual with the sound track ,Here you can express your own talent &Skills.',
+        'Euphoria is a group dance contest where the dance troops are welcomed to give us a frenetic perfomance.'
+      ],
+      location: 'Seminar Hall',
+      date: 'Nov 4',
+      time: '10:00am',
+      prize:["I - ", "II - ", "III- "],
+      rules: [
+        [
+          'Any style of Dance is allowed',
+          'Track limit should be within 3:30 min',
+          'Sound track should be sent before two days',
+          'Prelims will be there',
+          'Props can be used',
+          'No vulgarity in music/Performance/costumes',
+          'Judges decision is final',
+          'The general rules & Regulation should be followed otherwise the team will be disqualified.'
+        ],
+        [
+          'No of participants (5-15)',
+          'Any style of dance is allowed',
+          'Sound track should be within (3-4) mins',
+          'Prelims will be there',
+          'No vulgarity in music/costume/perfomance',
+          'Sound track should be sent before two days',
+          'Judges decision is final',
+          'The general rules & the time limits should be strictly followed otherwise the team will get eliminated'
+        ]
+      ],
+      eventOrganizers: [
+        ['Sakthivel GR-9789735839'],
+        ['Sakthivel GR-9789735839']
+      ]
     },
     {
-      eventName: 'Music Band',
+      eventName: 'Euphony',
       id: 'event-non-tech-2',
       type: 1,
       imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
       eventUrl:'events/non-tech/2',
       registrationLink1: 'https://forms.gle/y1qxsUgvGdLgNfLA6',
-      registrationLink2: 'https://forms.gle/LavV85WCts7TEmQ36'
+      description: 'Euphony is a grand solo singing event which is a great platform for all singers to showcase their innate talent through their euphonious voice. So do participate and  gear yourself up for an exhilarating event..',
+      location: 'Seminar Hall',
+      date: 'Nov 4',
+      time: '10:00am',
+      prize:["I - ", "II - ", "III- "],
+      rules: [
+        'Duration of the song can be between 2 to 3 minutes.',
+        'Song can be classical/Western',
+        'Karaoke is optional.',
+        'The participants will be judged based on the song selection, voice quality, rhythm and their appeal to the audience.',
+        'Obscenity of any kind is prohibited.',
+        'Decision of the judges will be definite.',
+        'The general guidelines and time constraints must be rigorously adhered to in order to avoid participant disqualification.'
+      ],
+      eventOrganizers: [
+        'Sakthivel GR - 9789735839',
+      ]
     },
     {
-      eventName: 'Modern Art',
+      eventName: 'PicaShow',
       id: 'event-non-tech-3',
       type: 1,
       imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
       eventUrl:'events/non-tech/3',
-      registrationLink: 'https://forms.gle/CLhBBkgG8nGLbKaw6'
+      registrationLink: 'https://forms.gle/CLhBBkgG8nGLbKaw6',
+      description: 'PicaShow is a modern art contest where the artists have chance to show their fantastic painting. ',
+      location: 'Seminar Hall',
+      date: 'Nov 4',
+      time: '10:00am',
+      prize:["I - ", "II - ", "III- "],
+      rules: [
+        'No of participants - 1',
+        'Duration : 1 hour 30 minutes',
+        'Theme : As your wish',
+        'Artwork can be abstract, still life, symbolism, cubism, landscape, portraits etc.',
+        'Painting can also be on any drawing paper, charts or canvas.',
+        'Artwork cannot be larger than A4 (8.3 * 11.7 in) size.',
+        'Carry your own properties, things will not be provided here.',
+        'Participants should explain their painting in front of judge.',
+        'Judges decision are final.',
+        'The general rules & the time limits should be strictly followed.'
+      ],
+      eventOrganizers: [
+        'Poovarasan I - 6379664859'
+      ]
   
     },
     {
-      eventName: 'Fashion Show',
+      eventName: 'Fashion Crisco',
       id: 'event-non-tech-4',
       type: 1,
       imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
       eventUrl:'events/non-tech/4',
-      registrationLink: 'https://forms.gle/SiTdVHSHCnQExWySA'
+      registrationLink: 'https://forms.gle/SiTdVHSHCnQExWySA',
+      description: 'Fashion crisco is a show that provides the platform for the fashion designers to showcase their work and skills',
+      location: 'Seminar Hall',
+      date: 'Nov 4',
+      time: '10:00am',
+      prize:["I - ", "II - ", "III- "],
+      rules: [
+        'No. of participants: 1-10',
+        'Time limit (6-8)',
+        'Select any theme accordingly',
+        'Carry your own props and costumes',
+        'No vulgarity in music/costumes',
+        'Sound track should be sent before two days',
+        'Judges decision are final',
+        'The general rules should be followed strictly otherwise the team or the person will get eliminated'
+      ],
+      eventOrganizers: [
+        'Kaviya I - 9344865917'
+      ]
     },
     {
       eventName: 'Slick Standups',
@@ -255,47 +344,132 @@ function App() {
       type: 1,
       imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
       eventUrl:'events/non-tech/5',
-      registrationLink: ''
+      registrationLink: '',
+      description: 'Slick Standups is nothing but a standup comedy event. It Is An Individual Competition. Participants Will Be Judged On The Basis Of Content, fluency, Spontaneity, Presentation & Sense Of Humor.',
+      location: 'Seminar Hall',
+      date: 'Nov 4',
+      time: '10:00am',
+      prize:["I - ", "II - ", "III- "],
+      rules: [
+        'Duration : 4 to 5 Minutes',
+        'No Participant Can Point Out Any Individual Or Religion In Any Way And Any Dual Meaning Obscene Content Is Strictly Not Allowed.',
+        'Decision Of The Judges Will Be Final And Binding.',
+        'No Specific Language'
+      ],
+      eventOrganizers: [
+        'Gugan M - 7418200298'
+      ]
     },
     {
-      eventName: 'Photography',
+      eventName: 'Shutter bug',
       id: 'event-non-tech-6',
       type: 1,
       imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
       eventUrl:'events/non-tech/6',
-      registrationLink: 'https://forms.gle/z4ufAc8EGyQPNaUM9'
+      registrationLink: 'https://forms.gle/z4ufAc8EGyQPNaUM9',
+      description: 'Are you the person with the beautiful eyes who captures the moment with your magical device? then this platform is for you to showcase the moments captured by you. Theme : Architecture, Emotion, Reflection ,Women empowerment ,Child labour',
+      location: 'Seminar Hall',
+      date: 'Nov 4',
+      time: '10:00am',
+      prize:["I - ", "II - ", "III- "],
+      rules: [
+        'Photos should not be edited',
+        'Individual participation,team participation is not allowed',
+        'Photos should be sent to the given number in jpeg format'
+      ],
+      eventOrganizers: [
+        'Santhosh Kumar.P - 7356591700'
+      ]
     },
     {
-      eventName: 'Mime',
+      eventName: 'Nadiganda',
       id: 'event-non-tech-7',
       type: 1,
       imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
       eventUrl:'events/non-tech/7',
-      registrationLink: 'https://forms.gle/PVnBhBAkenG7zJPF6'
+      registrationLink: 'https://forms.gle/PVnBhBAkenG7zJPF6',
+      description: 'Nadiganda is a group mime event . It is a theatrical technique of suggesting action, character or emotion without words, using only gesture, expression and movement .',
+      location: 'Seminar Hall',
+      date: 'Nov 4',
+      time: '10:00am',
+      prize:["I - ", "II - ", "III- "],
+      rules: [
+        'Maximum 7-8 members per team.',
+        'Duration : 4-5 minutes',
+        'Carry your own properties and things for the performance'
+      ],
+      eventOrganizers: [
+        'Kavin Kumar C - 6383216478'
+      ]
     },
     {
-      eventName: 'Shortfilm',
+      eventName: 'Shorty Cutz',
       id: 'event-non-tech-8',
       type: 1,
       imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
       eventUrl:'events/non-tech/8',
-      registrationLink: 'https://forms.gle/CUBFL2N2tM2cZd3Z8'
+      registrationLink: 'https://forms.gle/CUBFL2N2tM2cZd3Z8',
+      location: 'Seminar Hall',
+      date: 'Nov 4',
+      time: '10:00am',
+      prize:["I - ", "II - ", "III- "],
+      description: 'Shorty Cutz is a event for Passionate Directors.You can express your Direction skills ! Create your shorty cutz and reveal your Passionate Directors.',
+      rules: [
+        'Duration : 5-7 min',
+        'Any theme of your content',
+        'No vulgarity in your videos',
+        'Videos should be send before 2 days of the symposium',
+        'Judge decision are final',
+        'The shorty cutz can be your own creative story'
+      ],
+      eventOrganizers: [
+        'B. Griffin - 6383228850',
+        'H.Vinil - 8072812182'
+      ]
     },
     {
-      eventName: 'Adzap',
+      eventName: 'Adverza',
       id: 'event-non-tech-9',
       type: 1,
       imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
       eventUrl:'events/non-tech/9',
-      registrationLink: 'https://forms.gle/E1K885svUp8mDmz79'
+      registrationLink: 'https://forms.gle/E1K885svUp8mDmz79',
+      description: 'Adverza is an adsup event . Where every team is to advertise the given products by sketching and by acting in their own way . The team  which gives performance in more humour and innovative way will be rewarded .',
+      location: 'Seminar Hall',
+      date: 'Nov 4',
+      time: '10:00am',
+      prize:["I - ", "II - ", "III- "],
+      rules: [
+        'Maximum of 4-6 members per team.',
+        'This may be of two rounds - Advertisement sketching round and Advertisement acting round',
+        'The team should bring their own properties for both rounds .(only chart papers will be given for sketching.)',
+        'For sketching round maximum  of 15 mins will be given and for acting 30 mins for preperation and 5 mins for acting.'
+      ],
+      eventOrganizers: [
+        'Obliraj R - 7010069143'
+      ]
     },
     {
-      eventName: 'Quiz',
+      eventName: 'QUIZITE (Quiz)',
       id: 'event-non-tech-10',
       type: 1,
       imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
       eventUrl:'events/non-tech/10',
-      registrationLink: 'https://forms.gle/Ba9cydpn4xohY5L57'
+      registrationLink: 'https://forms.gle/Ba9cydpn4xohY5L57',
+      description: 'Quizite is a group quiz competition where contestants are welcomed to show their extensive knowledge.',
+      location: 'Seminar Hall',
+      date: 'Nov 4',
+      time: '10:00am',
+      prize:["I - ", "II - ", "III- "],
+      rules: [
+        'No of participants : 2-3',
+        'No of rounds : 3',
+        'Judges decision will be considered as final',
+        'General rules should be strictly followed or contestants would be eliminated'
+      ],
+      eventOrganizers: [
+        'NILOPARNISHA B - 6381044858'
+      ]
     },
   ]
 
@@ -316,15 +490,15 @@ function App() {
           <Route element={<IndEvent indEvent={eventsList[5]}/>} path="/events/tech/6"/>
           <Route element={<IndEvent4 indEvent={eventsList[6]}/>} path="/events/tech/7"/>
           <Route element={<IndEvent2 indEvent={eventsList[7]}/>} path="/events/non-tech/1"/>
-          <Route element={<IndEvent2 indEvent={eventsList[8]}/>} path="/events/non-tech/2"/>
-          <Route element={<IndEvent indEvent={eventsList[9]}/>} path="/events/non-tech/3"/>
-          <Route element={<IndEvent indEvent={eventsList[10]}/>} path="/events/non-tech/4"/>
-          <Route element={<IndEvent indEvent={eventsList[11]}/>} path="/events/non-tech/5"/>
-          <Route element={<IndEvent indEvent={eventsList[12]}/>} path="/events/non-tech/6"/>
-          <Route element={<IndEvent indEvent={eventsList[13]}/>} path="/events/non-tech/7"/>
-          <Route element={<IndEvent indEvent={eventsList[14]}/>} path="/events/non-tech/8"/>
-          <Route element={<IndEvent indEvent={eventsList[15]}/>} path="/events/non-tech/9"/>
-          <Route element={<IndEvent indEvent={eventsList[16]}/>} path="/events/non-tech/10"/>
+          <Route element={<NonTechEventTemplate indEvent={eventsList[8]}/>} path="/events/non-tech/2"/>
+          <Route element={<NonTechEventTemplate indEvent={eventsList[9]}/>} path="/events/non-tech/3"/>
+          <Route element={<NonTechEventTemplate indEvent={eventsList[10]}/>} path="/events/non-tech/4"/>
+          <Route element={<NonTechEventTemplate indEvent={eventsList[11]}/>} path="/events/non-tech/5"/>
+          <Route element={<NonTechEventTemplate indEvent={eventsList[12]}/>} path="/events/non-tech/6"/>
+          <Route element={<NonTechEventTemplate indEvent={eventsList[13]}/>} path="/events/non-tech/7"/>
+          <Route element={<NonTechEventTemplate indEvent={eventsList[14]}/>} path="/events/non-tech/8"/>
+          <Route element={<NonTechEventTemplate indEvent={eventsList[15]}/>} path="/events/non-tech/9"/>
+          <Route element={<NonTechEventTemplate indEvent={eventsList[16]}/>} path="/events/non-tech/10"/>
         </Routes>
       </div>
     </Router>
