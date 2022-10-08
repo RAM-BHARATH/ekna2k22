@@ -26,3 +26,14 @@ code {
     monospace;
 }
 
+button, .gemunu{
+  font-family: 'Gemunu Libre', sans-serif;
+}
+
+.monts{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cookie{
+  font-family: 'Cookie', cursive;
+}

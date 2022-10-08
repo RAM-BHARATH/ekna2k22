@@ -6,7 +6,7 @@ function Footer() {
         <div className='flex text-white flex-wrap'>
             <div className='flex flex-col w-full lg:w-1/3  p-4'>
                 <div className='flex flex-col jusitfy-center'>
-                    <h2 className='text-center text-2xl my-4'>Location</h2>
+                    <h2 className='text-center text-4xl my-4 cookie'>Location</h2>
                     <div className='mx-auto w-full'>
                          {/* <!-- Map --> */}
                          <div className="map-outer tm-mb-40">
@@ -17,13 +17,13 @@ function Footer() {
                             </div>
                         </div>
                     </div>
-                    <h2 className='text-center text-2xl my-4'>Address</h2>
+                    <h2 className='text-center text-4xl my-4 cookie'>Address</h2>
                     <div className='mx-auto w-full p-2 text-lg'>
-                        <div className='mx-auto text-center'>
-                            <p>Anna University Regional Campus Coimbatore</p>
-                            <p>Maruthamalai Main Road</p>
-                            <p>Navavoor</p>
-                            <p>Coimbatore - 641046</p>
+                        <div className='mx-auto text-justify monts'>
+                            <p className='text-base'>Anna University Regional Campus - CBE,</p>
+                            <p className='text-base'>Maruthamalai Main Road,</p>
+                            <p className='text-base'>Navavoor,</p>
+                            <p className='text-base'>Coimbatore - 641046.</p>
                         </div>
                     </div>
                 </div>
@@ -33,17 +33,37 @@ function Footer() {
             </div>
             <div className='flex flex-col w-full lg:w-1/3  p-4'>
                 <div className='flex flex-col jusitfy-center'>
-                    <h2 className='text-center text-3xl my-4'>Links</h2>
-                    <div className='underline text-center'><a href="/events">Events</a></div>
-                    <div className='underline text-center'><a href="/student-ambassador">Stuent Ambassador</a></div>
-                    <div className='underline text-center'><a href="/register">Register</a></div>
-                    <div className='underline text-center'><a href="/sponsors">Sponsorship</a></div>
+                    <h2 className='text-center text-4xl my-4 cookie'>Important Links</h2>
+                    <div className='underline text-center monts text-base'><a href="/events">Events</a></div>
+                    <div className='underline text-center monts text-base'><a href="/student-ambassador">Student Ambassador</a></div>
+                    <div className='underline text-center monts text-base'><a href="/register">Register</a></div>
+                    <div className='underline text-center monts text-base'><a href="/sponsors">Sponsorship</a></div>
                     <a id="contact">
-                        <h2 className='text-center text-3xl my-4' id='contact'>Contact</h2>
+                        <h2 className='text-center text-4xl my-4 cookie' id='contact'>Contact Us</h2>
                     </a>
-                    <div className='mx-auto w-fill'>
-                        <p>Lorem Lorem Lorem</p>
-                        <p>Lorem Lorem Lorem</p>
+                    <div className='w-full mx-auto flex flex-col items-center mb-5'>
+                        <h3 className='text-xl font-bold'>Event Co-ordinators:</h3>
+                        <ul className='list-decimal monts text-base'>
+                            <li>Yazhini S - 75300 74020</li>
+                            <li>Balaji S&nbsp;&nbsp;&nbsp; - 78689 28433</li>
+                        </ul>
+                    </div>
+                    <div className='mx-auto w-full flex justify-center'>
+                        <a href="https://instagram.com/ekna2k22?igshid=YmMyMTA2M2Y=">
+                            <img src="/assets/icons/instagram.svg" alt=""  className='w-8 h-8 mx-2 my-1'/>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100086210026178">
+                            <img src="/assets/icons/facebook.svg" alt=""  className='w-8 h-8 mx-2 my-1'/>
+                        </a>
+                        <a href="https://youtube.com/channel/UCKx4Owx-QH65a0Zs4AMBdGg">
+                            <img src="/assets/icons/youtube.svg" alt=""  className='w-8 h-8 mx-2 my-1'/>
+                        </a>
+                        <a href="https://twitter.com/eknasympo?s=11&t=uZ8uWl46_3qMJ0dQWnKEqw">
+                            <img src="/assets/icons/twitter.svg" alt=""  className='w-8 h-8 mx-2 my-1'/>
+                        </a>
+                        <a href="mailto:eknasympo@gmail.com">
+                            <img src="/assets/icons/mail.svg" alt=""  className='w-8 h-8 mx-2 my-1'/>
+                        </a>
                     </div>
                 </div>
             </div>

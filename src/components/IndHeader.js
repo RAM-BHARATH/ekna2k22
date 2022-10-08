@@ -13,14 +13,13 @@ function IndHeader({ bg }) {
           <a href="/">
             <div className='p-3'>
               <div className='w-24 h-12 bg-white'></div>
+              {/* <img src="/assets/icons/ekna_side.svg" alt="" className='w-24 h-20'/> */}
             </div>
           </a>
           <div className='flex items-center'>
             <div>
-              <a href="/student-ambassador">
-                <button className='z-10 px-1 py-1 bg-white m-auto rounded-md'>
+            <a href="/student-ambassador" className='z-10 px-2 py-1 text-sm bg-blue-400 text-gray-800 m-auto rounded-md gemunu'>
                   Student Ambassador
-                </button>
               </a>
             </div>
             <button className='z-10' onClick={sideMenuToggle}>

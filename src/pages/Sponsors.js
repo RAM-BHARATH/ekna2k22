@@ -29,10 +29,6 @@ function Sponsors() {
         sponsorLogo: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
     },
     {
-        sponsorName: 'Sponsor 6',
-        sponsorLogo: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
-    },
-    {
         sponsorName: 'Sponsor 7',
         sponsorLogo: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
     },
@@ -46,6 +42,10 @@ function Sponsors() {
     },
     {
         sponsorName: 'Sponsor 10',
+        sponsorLogo: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
+    },
+    {
+        sponsorName: 'Sponsor 11',
         sponsorLogo: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
     },
   ]
@@ -65,12 +65,40 @@ function Sponsors() {
                     {
                         sponsors.map((sponsor)=> {
                             return(
-                                <div className='relative w-full p-10 bg-gray-700 mx-4 my-6'>
+                                <div className='relative w-full p-10 bg-gray-700 mx-4 my-6' key={sponsor.sponsorName}>
                                     {sponsor.sponsorName}
                                 </div>
                             )
                         })
                     }
+                </div>
+                <div className="border border-brand-primary border-l-0 border-r-0 container lg:p-20 mt-6 overflow-hidden p-12 relative">
+                    <div className="flex animate-infinite absolute left-0">
+                        <div className="flex w-50 justify-around items-center logo">
+                            <a href="/"><img src={sponsors[0].sponsorLogo} alt="" /></a>
+                            <a href="/"><img src={sponsors[1].sponsorLogo} alt="" /></a>
+                            <a href="/"><img src={sponsors[2].sponsorLogo} alt="" /></a>
+                            <a href="/"><img src={sponsors[3].sponsorLogo} alt="" /></a>
+                            <a href="/"><img src={sponsors[4].sponsorLogo} alt="" /></a>
+                            <a href="/"><img src={sponsors[5].sponsorLogo} alt="" /></a>
+                            <a href="/"><img src={sponsors[6].sponsorLogo} alt="" /></a>
+                            <a href="/"><img src={sponsors[7].sponsorLogo} alt="" /></a>
+                            <a href="/"><img src={sponsors[8].sponsorLogo} alt="" /></a>
+                            <a href="/"><img src={sponsors[9].sponsorLogo} alt="" /></a>
+                        </div>
+                        <div className="flex w-50 justify-around items-center logo">
+                            <a href="/"><img src={sponsors[0].sponsorLogo} alt="" /></a>
+                            <a href="/"><img src={sponsors[1].sponsorLogo} alt="" /></a>
+                            <a href="/"><img src={sponsors[2].sponsorLogo} alt="" /></a>
+                            <a href="/"><img src={sponsors[3].sponsorLogo} alt="" /></a>
+                            <a href="/"><img src={sponsors[4].sponsorLogo} alt="" /></a>
+                            <a href="/"><img src={sponsors[5].sponsorLogo} alt="" /></a>
+                            <a href="/"><img src={sponsors[6].sponsorLogo} alt="" /></a>
+                            <a href="/"><img src={sponsors[7].sponsorLogo} alt="" /></a>
+                            <a href="/"><img src={sponsors[8].sponsorLogo} alt="" /></a>
+                            <a href="/"><img src={sponsors[9].sponsorLogo} alt="" /></a>
+                        </div>
+                    </div>
                 </div>
                 <h2 className='text-3xl border-b-black border-b-2 w-fit mx-auto'>How to become a Sponsor?</h2>
                 <div className='lg:w-2/3 text-justify mx-auto my-10'>

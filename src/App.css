@@ -119,3 +119,22 @@ body{
 .infinite-scroll{
     /* transform: translateX(200px); */
 }
+
+@keyframes marquee {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: -375%;
+    }
+}
+.animate-infinite {
+    width: 750%;
+    animation: marquee 20s linear infinite;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.logo a {
+    width: 100px;
+    -webkit-transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
