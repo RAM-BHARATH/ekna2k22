@@ -19,7 +19,7 @@ function Main() {
         </div>
         {/* <iframe className='my-5 w-4/5 lg:h-72 lg:w-96' src="https://youtu.be/X6VaBPzjh6A" title="EKNA 2k22" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> */}
         {/* </iframe> */}
-        <iframe className='my-5 w-4/5 lg:h-72 lg:w-96' width="1833" height="815" src="https://www.youtube.com/embed/X6VaBPzjh6A" title="EKNA'22 || It's a grand opening of an amazing event Ekna'22 by AURCC  || Department of EEE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe className='my-5 w-4/5 lg:h-72 lg:w-96' src="https://www.youtube.com/embed/X6VaBPzjh6A" title="EKNA'22 || It's a grand opening of an amazing event Ekna'22 by AURCC  || Department of EEE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <div className='flex flex-wrap w-full py-10 justify-center items-center'>
           <div className='w-full lg:w-1/2'>
             <img src="/assets/ticket.svg" alt="" className='w-48 mx-auto lg:w-72'/>
