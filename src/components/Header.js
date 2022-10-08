@@ -30,31 +30,34 @@ function Header({ bg }) {
         </ul>
         <nav className={`sidemenu ${ sideMenu ?'open':'close' } monts font-bold`}>
           <ul className='flex flex-col justify-center items-center h-screen text-cyan-50 text-lg'>
-            <li className='hover:text-cyan-700 hover:scale-110 transition-transform transition-transform-slow'>
-              <a href="/">
-                HOME
-              </a>
-            </li>
-            <li className='hover:text-cyan-700 hover:scale-110 transition-transform transition-transform-slow'>
-              <a href="/events">
-                EVENTS
-              </a>
-            </li>
-            <li className='hover:text-cyan-700 hover:scale-110 transition-transform transition-transform-slow'>
-              <a href="/student-ambassador">
-                STUDENT AMBASSADOR
-              </a>
-            </li>
-            <li className='hover:text-cyan-700 hover:scale-110 transition-transform transition-transform-slow'>
-              <a href="/sponsors">
-                SPONSORS
-              </a>
-            </li>
-            <li className='hover:text-cyan-700 hover:scale-110 transition-transform transition-transform-slow'>
-              <a href="/#contact">
-                HELP
-              </a>
-            </li>
+            
+            <div>
+              <li className='hover:text-cyan-700 hover:scale-110 transition-transform transition-transform-slow'>
+                <a href="/">
+                  HOME
+                </a>
+              </li>
+              <li className='hover:text-cyan-700 hover:scale-110 transition-transform transition-transform-slow'>
+                <a href="/events">
+                  EVENTS
+                </a>
+              </li>
+              <li className='hover:text-cyan-700 hover:scale-110 transition-transform transition-transform-slow'>
+                <a href="/student-ambassador">
+                  STUDENT AMBASSADOR
+                </a>
+              </li>
+              <li className='hover:text-cyan-700 hover:scale-110 transition-transform transition-transform-slow'>
+                <a href="/sponsors">
+                  SPONSORS
+                </a>
+              </li>
+              <li className='hover:text-cyan-700 hover:scale-110 transition-transform transition-transform-slow'>
+                <a href="/#contact">
+                  HELP
+                </a>
+              </li>
+            </div>
           </ul>
         </nav>
     </header>
