@@ -24,7 +24,7 @@ function StudentAmbassador() {
                             <li className='font-bold'>Should encourage your friends to register the event by means of your referral code.</li>
                         </ul>
                     </div>
-                    <h2 className='text-3xl w-fit mx-auto border-b-black border-2 cookie'>Why become a Student Ambassador?</h2>
+                    <h2 className='text-3xl w-fit mx-auto border-b-black border-2 cookie'>Why to become a Student Ambassador?</h2>
                     <div className='p-3 lg:mx-auto lg:w-2/3 text-justify monts'>
                         <ul className='list-disc text-justify'>
                             <li className='font-bold'>Enhance communication skills.</li>
@@ -40,36 +40,36 @@ function StudentAmbassador() {
                     <table className="table-fixed border-spacing-2 border-black border-2 my-10 mx-auto">
                         <thead className='cookie text-xl'>
                             <tr>
-                                <th className='p-3 border-black border-2'>Silver</th>
-                                <th className='p-3 border-black border-2'>Gold</th>
-                                <th className='p-3 border-black border-2'>Diamond</th>
+                                <th className='p-2 border-black border-2'>Silver</th>
+                                <th className='p-2 border-black border-2'>Gold</th>
+                                <th className='p-2 border-black border-2'>Diamond</th>
                             </tr>
                         </thead>
-                        <tbody className='border-spacing-2 border-black border-2 monts'>
+                        <tbody className='border-spacing-2 border-black border-2 monts text-sm'>
                             <tr className='border-spacing-2 border-black border-2'>
-                                <td className='p-3 border-black border-2'>Certificates</td>
-                                <td className='p-3 border-black border-2'>Certificates</td>
-                                <td className='p-3 border-black border-2'>Certificates</td>
+                                <td className='p-2 border-black border-2'>Certificates</td>
+                                <td className='p-2 border-black border-2'>Certificates</td>
+                                <td className='p-2 border-black border-2'>Certificates</td>
                             </tr>
                             <tr className='border-spacing-2 border-black border-2'>
-                                <td className='p-3 border-black border-2'>Free Food &amp; Registration</td>
-                                <td className='p-3 border-black border-2'>Free Food &amp; Registration</td>
-                                <td className='p-3 border-black border-2'>Free Food &amp; Registration</td>
+                                <td className='p-2 border-black border-2'>Free Food &amp; Registration</td>
+                                <td className='p-2 border-black border-2'>Free Food &amp; Registration</td>
+                                <td className='p-2 border-black border-2'>Free Food &amp; Registration</td>
                             </tr>
                             <tr className='border-spacing-2 border-black border-2'>
-                                <td className='p-3 border-black border-2'>-</td>
-                                <td className='p-3 border-black border-2'>T-Shirts</td>
-                                <td className='p-3 border-black border-2'>T-Shirts</td>
+                                <td className='p-2 border-black border-2'>-</td>
+                                <td className='p-2 border-black border-2'>T-Shirts</td>
+                                <td className='p-2 border-black border-2'>T-Shirts</td>
                             </tr>
                             <tr className='border-spacing-2 border-black border-2'>
-                                <td className='p-3 border-black border-2'>-</td>
-                                <td className='p-3 border-black border-2'>Can participate in more than 2 events</td>
-                                <td className='p-3 border-black border-2'>Can participate in any event</td>
+                                <td className='p-2 border-black border-2'>-</td>
+                                <td className='p-2 border-black border-2'>Can participate in more than 2 events</td>
+                                <td className='p-2 border-black border-2'>Can participate in any event</td>
                             </tr>
                             <tr className='border-spacing-2 border-black border-2'>
-                                <td className='p-3 border-black border-2'>-</td>
-                                <td className='p-3 border-black border-2'>-</td>
-                                <td className='p-3 border-black border-2'>Gift Vouchers</td>
+                                <td className='p-2 border-black border-2'>-</td>
+                                <td className='p-2 border-black border-2'>-</td>
+                                <td className='p-2 border-black border-2'>Gift Vouchers</td>
                             </tr>
                         </tbody>
                     </table>
@@ -97,19 +97,23 @@ function StudentAmbassador() {
                             </tr>
                         </tbody>
                     </table>
-                    <p className='font-bold text-red-600'>** The above counts in the table represents number of referral participants</p>
+                    <p className='font-bold text-red-600 mb-3'>** The above counts in the table represents the number of referral participants</p>
                     <section className='monts'>
-                        <h2 className='text-left font-bold text-xl underline'>Note:</h2>
+                        <h2 className='text-left text-3xl underline cookie'>Note:</h2>
                         <ul className='text-justify'>
                             <li className='my-3'>
                                 Student Participants should enter your referral code ( Ex. ASHISH20) on the registration form and complete the registration.Then only,  Your credit count will be raised. So, Ensure till end of the registration of your referral participants.
                             </li>
-                            <li className='font-bold my-5'>
+                            <li className='font-bold my-5 text-red-600'>
                                 ** Your referral credit count will be intimated through the mail on daily basis 
                             </li>
                         </ul>
                     </section>
                     <a href="https://forms.gle/GMVkSy3wo4SZgygg7" target='_blank' rel="noreferrer" className='px-4 py-2 bg-blue-600 rounded-md text-white hover:bg-black'>Apply</a>
+                    <div className='my-5'>
+                        <h3 className='cookie text-3xl text-left'>For any queries,</h3>
+                        <p className='monts text-left'>Sakthivel GR - 97897 35839</p>
+                    </div>
                 </div>
             </div>
         </div>

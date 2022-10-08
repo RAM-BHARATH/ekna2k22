@@ -12,8 +12,8 @@ function Header({ bg }) {
         <ul className='flex justify-between m-0'>
           <a href="/">
             <div className='p-3'>
-              <div className='w-24 h-12 bg-white'></div>
-              {/* <img src="/assets/icons/ekna_side.svg" alt="" className='w-24 h-20'/> */}
+              {/* <div className='w-24 h-12 bg-white'></div> */}
+              <img src="/assets/icons/ekna_side.svg" alt="" className='w-24 h-12 rounded-xl'/>
             </div>
           </a>
           <div className='flex items-center'>

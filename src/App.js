@@ -16,7 +16,7 @@ function App() {
       id: 'event-tech-1',
       eventUrl:'events/tech/1',
       type: 0,
-      imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
+      imgUrl: '/assets/event_images/electro-matrix.jpeg',
       description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quibusdam deserunt, eius id quia molestiae ab asperiores fuga cupiditate veniam pariatur amet? Deleniti voluptate harum quibusdam saepe corrupti placeat optio.',
       registrationLink: 'https://forms.gle/UpYawoYRJ2CYz7fV6'
     },
@@ -25,7 +25,7 @@ function App() {
       id: 'event-tech-2',
       eventUrl:'events/tech/2',
       type: 0,
-      imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
+      imgUrl: '/assets/event_images/analogy.jpeg',
       description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quibusdam deserunt, eius id quia molestiae ab asperiores fuga cupiditate veniam pariatur amet? Deleniti voluptate harum quibusdam saepe corrupti placeat optio.',
       registrationLink: 'https://forms.gle/1AHQajCVTVib8PRN6 '
     },
@@ -34,7 +34,7 @@ function App() {
       id: 'event-tech-3',
       eventUrl:'events/tech/3',
       type: 0,
-      imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
+      imgUrl: '/assets/event_images/iquid.jpeg',
       description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quibusdam deserunt, eius id quia molestiae ab asperiores fuga cupiditate veniam pariatur amet? Deleniti voluptate harum quibusdam saepe corrupti placeat optio.',
       registrationLink: 'https://forms.gle/Lc5n249gf719Q6nC6 '
     },
@@ -43,7 +43,7 @@ function App() {
       id: 'event-tech-4',
       eventUrl:'events/tech/4',
       type: 0,
-      imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
+      imgUrl: '/assets/event_images/paper.jpeg',
       description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quibusdam deserunt, eius id quia molestiae ab asperiores fuga cupiditate veniam pariatur amet? Deleniti voluptate harum quibusdam saepe corrupti placeat optio.',
       registrationLink: 'https://forms.gle/uLs9CGBptTmpVdFv6'
     },
@@ -52,7 +52,7 @@ function App() {
       id: 'event-tech-5',
       eventUrl:'events/tech/5',
       type: 0,
-      imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
+      imgUrl: '/assets/event_images/robot-expo.jpeg',
       description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quibusdam deserunt, eius id quia molestiae ab asperiores fuga cupiditate veniam pariatur amet? Deleniti voluptate harum quibusdam saepe corrupti placeat optio.',
       registrationLink: 'https://forms.gle/gwP9q1HDop4Kupyi6'
     },
@@ -61,7 +61,7 @@ function App() {
       id: 'event-tech-6',
       eventUrl:'events/tech/6',
       type: 0,
-      imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
+      imgUrl: '/assets/event_images/coder.jpeg',
       description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quibusdam deserunt, eius id quia molestiae ab asperiores fuga cupiditate veniam pariatur amet? Deleniti voluptate harum quibusdam saepe corrupti placeat optio.',
       registrationLink: 'https://forms.gle/13rzRoZPURMA2fRMA'
     },
@@ -70,7 +70,7 @@ function App() {
       id: 'event-tech-7',
       eventUrl:'events/tech/7',
       type: 0,
-      imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
+      imgUrl: '/assets/event_images/water-rocketry.jpeg',
       description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quibusdam deserunt, eius id quia molestiae ab asperiores fuga cupiditate veniam pariatur amet? Deleniti voluptate harum quibusdam saepe corrupti placeat optio.',
       registrationLink: 'https://forms.gle/QXFNNLtYPARES5dNA'
     },
