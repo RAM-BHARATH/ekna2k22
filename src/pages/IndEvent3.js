@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import IndHeader from '../components/IndHeader'
 
-function IndEvent({ indEvent }) {
+function IndEvent3({ indEvent }) {
 
   useEffect(()=>{
     document.title = `${indEvent.eventName} | Ekna2k22`
@@ -52,6 +52,14 @@ function IndEvent({ indEvent }) {
             </div>
             <h3 className='cookie text-3xl text-left w-full'>Description</h3>
             <p className='text-justify monts'>{indEvent.description}</p>
+            <h3 className='cookie text-3xl text-left w-full mt-8 mb-4'>Some sample tasks of the event:</h3>
+            <ul className='list-disc w-4/5'>
+                {indEvent.tasks.map((task, index) => <li key={index} className='monts'>{task}</li>)}
+            </ul>
+            <h3 className='cookie text-3xl text-left w-full mt-8 mb-4'>Note</h3>
+            <ul className='list-decimal w-4/5'>
+                {indEvent.notes.map((note, index) => <li key={index} className='monts'>{note}</li>)}
+            </ul>
             <h3 className='cookie text-3xl text-left w-full mt-8 mb-4'>Rules and Regulations</h3>
             <ul className='list-decimal w-4/5'>
                 {indEvent.rules.map((rule, index) => <li key={index} className='monts'>{rule}</li>)}
@@ -67,4 +75,4 @@ function IndEvent({ indEvent }) {
   )
 }
 
-export default IndEvent
+export default IndEvent3

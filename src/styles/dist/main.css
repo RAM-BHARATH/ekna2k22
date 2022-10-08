@@ -691,6 +691,11 @@ video {
   margin-right: 0.25rem;
 }
 
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .mt-24 {
   margin-top: 6rem;
 }
@@ -709,6 +714,14 @@ video {
 
 .mb-3 {
   margin-bottom: 0.75rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .inline {
@@ -823,6 +836,14 @@ video {
   width: 12rem;
 }
 
+.w-16 {
+  width: 4rem;
+}
+
+.w-28 {
+  width: 7rem;
+}
+
 .table-fixed {
   table-layout: fixed;
 }
@@ -851,6 +872,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.items-baseline {
+  align-items: baseline;
 }
 
 .justify-center {

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import IndHeader from '../components/IndHeader'
 
-function IndEvent({ indEvent }) {
+function IndEvent4({ indEvent }) {
 
   useEffect(()=>{
     document.title = `${indEvent.eventName} | Ekna2k22`
@@ -28,10 +28,6 @@ function IndEvent({ indEvent }) {
                 <img src="/assets/icons/clock.svg" alt="" className='w-24'/>
                 <div className='my-3'>{indEvent.time}</div>
               </div>
-              {/* <div className='text-center'>
-                <img src="/assets/icons/contact.svg" alt="" className='w-24'/>
-                <div className='my-3'>Lorem</div>
-              </div> */}
               <div className='text-center'>
                 <img src="/assets/icons/trophy.svg" alt="" className='w-24'/>
                 <div className='my-3'>
@@ -42,10 +38,6 @@ function IndEvent({ indEvent }) {
                   </ul>
                 </div>
               </div>
-              {/* <div className='text-center'>
-                <img src="/assets/icons/sand-clock.svg" alt="" className='w-24'/>
-                <div className='my-3'>Lorem</div>
-              </div> */}
               <div className='py-2 px-3 rounded-md bg-cyan-900'>
                 <a href={indEvent.registrationLink} className='text-white'>Register</a>
               </div>
@@ -53,8 +45,13 @@ function IndEvent({ indEvent }) {
             <h3 className='cookie text-3xl text-left w-full'>Description</h3>
             <p className='text-justify monts'>{indEvent.description}</p>
             <h3 className='cookie text-3xl text-left w-full mt-8 mb-4'>Rules and Regulations</h3>
+            <h4 className='cookie text-3xl text-left w-full mt-8 mb-4'>Round 1:(horizontal distance test)</h4>
             <ul className='list-decimal w-4/5'>
-                {indEvent.rules.map((rule, index) => <li key={index} className='monts'>{rule}</li>)}
+                {indEvent.rules[0].map((rule, index) => <li key={index} className='monts'>{rule}</li>)}
+            </ul>
+            <h4 className='cookie text-3xl text-left w-full mt-8 mb-4'>Round 2:(vertical distance test based on levitation time)</h4>
+            <ul className='list-decimal w-4/5'>
+                {indEvent.rules[1].map((rule, index) => <li key={index} className='monts'>{rule}</li>)}
             </ul>
             <h3 className='cookie text-3xl text-left w-full mt-8 mb-4'>Event Organizers</h3>
             <ul className='list-decimal w-4/5'>
@@ -67,4 +64,4 @@ function IndEvent({ indEvent }) {
   )
 }
 
-export default IndEvent
+export default IndEvent4

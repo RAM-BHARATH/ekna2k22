@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Events from './pages/Events';
 import IndEvent from './pages/IndEvent';
 import IndEvent2 from './pages/IndEvent2';
+import IndEvent3 from './pages/IndEvent3';
+import IndEvent4 from './pages/IndEvent4';
 import StudentAmbassador from './pages/StudentAmbassador';
 import Sponsors from './pages/Sponsors';
 
@@ -17,8 +19,34 @@ function App() {
       eventUrl:'events/tech/1',
       type: 0,
       imgUrl: '/assets/event_images/electro-matrix.jpeg',
-      description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quibusdam deserunt, eius id quia molestiae ab asperiores fuga cupiditate veniam pariatur amet? Deleniti voluptate harum quibusdam saepe corrupti placeat optio.',
-      registrationLink: 'https://forms.gle/UpYawoYRJ2CYz7fV6'
+      description: 'Electro-Matrix is the event all about playing with the Electronics with so much of fun and competitiveness. This event consists of tasks like design and debugging of electronic circuits.In Circuit design where the participants will design an electronic circuit in a competitive manner according to the desired O/P and given constraints. In Circuit Debugging, the task is all about the error identification and rectification in the electronic circuit on your way according to the desired O/P.',
+      registrationLink: 'https://forms.gle/UpYawoYRJ2CYz7fV6',
+      location: 'Seminar Hall',
+      date: 'Nov 4',
+      time: '10:00am',
+      prize:["I - ₹2000", "II - ₹1000", "III- Trophy + Certificate"],
+      tasks: ['Design of Logic circuit with a Boolean expression in hand ( K-Map simplification may be needed )',
+              'Design amplifier with op-amp at the desired gain .',
+              'Design a circuit to display a desired number with the seven segment display.',
+              'Identify the bug at resistance voltage drop circuit, wheatstone bridge circuit etc...',
+      ],
+      notes: ['At each level after the 8 th minute, the hint paper will be provided if participants in need.',
+              'All Hardware components will be provided for each team'
+      ],
+      rules: [
+        'The maximum number of  participants per team is 2.',
+        'This event will be conducted in a level wise. Each level consists of One task which is need to be done.',
+        'Each level duration is 15 mins. If one completes the first level only, they can move on to second level.',
+        'In that 15 mins, How fast and accurate the participants completes the task accordingly the scores will be provided at each level.',
+        'At each level after the 8 th minute, the hint paper will be provided if participants in need.',
+        'Depends upon the situation, the number of levels will be decided.',
+        'The scores at each level will be added results the final score. Depends upon the final score, the prizes will be given.',
+        'Judges decision will be the final. No more arguments or appeal will be entertained.'
+      ],
+      eventOrganizers: [
+        'Vigneshwaran V - 8072899835',
+        'Naveenraj K -  6380824773'
+      ]
     },
     {
       eventName: 'Analogy-o-Mania!',
@@ -26,8 +54,26 @@ function App() {
       eventUrl:'events/tech/2',
       type: 0,
       imgUrl: '/assets/event_images/analogy.jpeg',
-      description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quibusdam deserunt, eius id quia molestiae ab asperiores fuga cupiditate veniam pariatur amet? Deleniti voluptate harum quibusdam saepe corrupti placeat optio.',
-      registrationLink: 'https://forms.gle/1AHQajCVTVib8PRN6 '
+      registrationLink: 'https://forms.gle/1AHQajCVTVib8PRN6',
+      description: "A game of comparing science with nature . Everyone with a basic knowledge of science can participate in this game . It's a kind of quiz game with so much of fun. The team which get the  highest score will be the winner 🏆.",
+      location: 'Seminar Hall',
+      date: 'Nov 4',
+      time: '10:00am',
+      prize:["I - ₹2000", "II - ₹1000", "III- Trophy + Certificate"],
+      rules: [
+        'There should be maximum 2 members per team',
+        'You can represent your team with a name',
+        'The game may be conducted in mobile phones so a person from team can join the quiz with their phone and other should not use his/ her phone to search any answer or for other purpose',
+        'Persons from different institutions can be a part of the same team. However, one person',
+        'Depending upon scores only winner is decided',
+        'The quiz may be of three rounds. First is filtering round , then semifinals and finals.',
+        'Violating rules may result in immediate disqualification of the team form the game.',
+        'Other information will be given before the starting of event'
+      ],
+      eventOrganizers: [
+        'Gokul K - Lokes6369173273',
+        'Jayaprabakshini V P -  9944256036'
+      ]
     },
     {
       eventName: 'IQuid',
@@ -35,8 +81,26 @@ function App() {
       eventUrl:'events/tech/3',
       type: 0,
       imgUrl: '/assets/event_images/iquid.jpeg',
-      description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quibusdam deserunt, eius id quia molestiae ab asperiores fuga cupiditate veniam pariatur amet? Deleniti voluptate harum quibusdam saepe corrupti placeat optio.',
-      registrationLink: 'https://forms.gle/Lc5n249gf719Q6nC6 '
+      registrationLink: 'https://forms.gle/Lc5n249gf719Q6nC6',
+      description: 'IQuid is the most unique quest of all the events where all fields of engineering disciplines can participate in it. This event comprises various Mathematical  puzzles to solve in sequential stages with increasing difficulty of finding clues and some challenges for the human IQ and memory in every stage to pass on. The  person who cracks the overall twists and turns will top the event!',
+      location: 'Seminar Hall',
+      date: 'Nov 4',
+      time: '10:00am',
+      prize:["I - ₹2000", "II - ₹1000", "III- Trophy + Certificate"],
+      rules: [
+        'The event will be conducted in 3 rounds Preliminary , Secondary , Finale',
+        'The teams that are able to pass each rounds will be promoted to next with calculating the time taken to complete',
+        ' Each team must have two members, they will be provided with questions to solve in which they will be given a number as a reward',
+        'The number that they receive as a reward of solving a question must be kept in mind and should be added to the next following question’s rewards',
+        'Later completing the stages the added answer which is a resultant of adding reward numbers of each question will be verified with the final answer',
+        'Total time given for each round is 20mins . Each round will have a 5 questions to solve time taken to solve each question is not particular but total time(20mins) will be taken in account.',
+        'The quick and correctness of answer in the final will be award as winner followed by runner and 2nd runner.'
+      ],
+      eventOrganizers: [
+        'Lokesh U E - 7904637424',
+        'Sowmiya P - 9361592046',
+        'Inisha M - 9791786058'
+      ]
     },
     {
       eventName: 'Papier Presentella ',
@@ -44,8 +108,30 @@ function App() {
       eventUrl:'events/tech/4',
       type: 0,
       imgUrl: '/assets/event_images/paper.jpeg',
-      description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quibusdam deserunt, eius id quia molestiae ab asperiores fuga cupiditate veniam pariatur amet? Deleniti voluptate harum quibusdam saepe corrupti placeat optio.',
-      registrationLink: 'https://forms.gle/uLs9CGBptTmpVdFv6'
+      registrationLink: 'https://forms.gle/uLs9CGBptTmpVdFv6',
+      description: 'Presenting a formal talk to share new information. A technical fest where all the departments can participate to show their way of presenting style, language and how effectively and promptly each one answer the questions. The one who attains the top three will be rewarded.',
+      location: 'Seminar Hall',
+      date: 'Nov 4',
+      time: '10:00am',
+      prize:["I - ₹2000", "II - ₹1000", "III- Trophy + Certificate"],
+      rules: [
+        'Maximum number of participants in a Team is 2',
+        'One person  may not be a part of multiple teams for the same event.',
+        'Paper should be in IEEE Format.',
+        'Abstract should not exceed more than 250 words and Paper should not exceed 15 pages.',
+        'Kindly Mail your abstract, paper and ppt . The difficulties  will be addressed through the same email-id.',
+        'The mail with submissions should contain: Title- theme of the paper, Names of the authors,Phone no of the authors, E-mail ID’s',
+        'Participants should bring hardcopies and soft-copies of the submitted paper and PowerPoint presentations must be in the .ppt or .pptx format.',
+        'Hard copies should be submitted  before presentation to the judges',
+        'The teams will get 10 minutes for presentation and followed by question and answer session.',
+        'Last day to submit soft copy of your report (via e-mail) will be two days prior presentation.',
+        'The participants will have to present their papers in MS power point supported (.ppt Or. pptx ) only.',
+        'The decision of judges will be final and no arguments or appeal will be entertained.'
+      ],
+      eventOrganizers: [
+        'Geetha N - 8778483779',
+        'Poovarasan I - 6379664859'
+      ]
     },
     {
       eventName: 'Robot Expo',
@@ -53,8 +139,23 @@ function App() {
       eventUrl:'events/tech/5',
       type: 0,
       imgUrl: '/assets/event_images/robot-expo.jpeg',
-      description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quibusdam deserunt, eius id quia molestiae ab asperiores fuga cupiditate veniam pariatur amet? Deleniti voluptate harum quibusdam saepe corrupti placeat optio.',
-      registrationLink: 'https://forms.gle/gwP9q1HDop4Kupyi6'
+      registrationLink: 'https://forms.gle/gwP9q1HDop4Kupyi6',
+      description: "The robot expo where future meets today's possibilities and the participants from various department  can showcase their robots in this expo and their robots will be scrutinized by the panel of judges and the robot which flabbergast the panel will get exciting prizes.",
+      location: 'Seminar Hall',
+      date: 'Nov 4',
+      time: '10:00am',
+      prize:["I - ₹2000", "II - ₹1000", "III- Trophy + Certificate"],
+      rules: [
+        'Team Participants should present before 9.00 am for registration and to get place allocation for their respective robots.',
+        'Team participating in this expo must showcase their robot in physical format',
+        'Every team should showcase their robot from 9.00 am to 3.30 p.m.',
+        'Participants should demonstrate their robots to the visitors and the panel.',
+        'Judges decision is the final'
+      ],
+      eventOrganizers: [
+        'Prabhu V - 9597498264',
+        'Neena Nayak R K - 7299729933'
+      ]
     },
     {
       eventName: 'Mr. Coder',
@@ -62,8 +163,24 @@ function App() {
       eventUrl:'events/tech/6',
       type: 0,
       imgUrl: '/assets/event_images/coder.jpeg',
-      description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quibusdam deserunt, eius id quia molestiae ab asperiores fuga cupiditate veniam pariatur amet? Deleniti voluptate harum quibusdam saepe corrupti placeat optio.',
-      registrationLink: 'https://forms.gle/13rzRoZPURMA2fRMA'
+      registrationLink: 'https://forms.gle/13rzRoZPURMA2fRMA',
+      description: 'A contest to find the master coder in the room. Participants are faced with challenges like, writing code, debugging code, understanding logic and rewriting code. Marks are rewarded as per difficulty level and difficulty increases through stages. Top three coders will be rewarded and the winner will snatch the title of "Mr. coder" and cash prize.',
+      location: 'Seminar Hall',
+      date: 'Nov 4',
+      time: '10:00am',
+      prize:["I - ₹2000", "II - ₹1000", "III- Trophy + Certificate"],
+      rules: [
+        'Two rounds will be conducted.',
+        'Top 10 scorers from the first round will compete in the second round for top 3 positions.',
+        'Each challenge has a pre-determined score.',
+        "A participant's score depends on the number of test cases successfully passed.",
+        'Participants are ranked by score. If two or more participants achieve the same score, then the tie is broken by the total time taken to submit the last solution resulting in a higher score.',
+        'Note- everyone must have a hacker rank account for participating in the contest.'
+      ],
+      eventOrganizers: [
+        'Akshayavani A - 8300831655',
+        'Boornima Shree S - 9345678146'
+      ]
     },
     {
       eventName: 'Water Rocketry',
@@ -71,15 +188,37 @@ function App() {
       eventUrl:'events/tech/7',
       type: 0,
       imgUrl: '/assets/event_images/water-rocketry.jpeg',
-      description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quibusdam deserunt, eius id quia molestiae ab asperiores fuga cupiditate veniam pariatur amet? Deleniti voluptate harum quibusdam saepe corrupti placeat optio.',
-      registrationLink: 'https://forms.gle/QXFNNLtYPARES5dNA'
+      registrationLink: 'https://forms.gle/QXFNNLtYPARES5dNA',
+      description: 'Teams with handmade water rockets compete against each other to find the best rocket among them. Top 3 Water rockets that perfectly manages the best aerodynamics, size  to weight ratio and low wind drag would be rewarded with amazing cash prize and the winner bags the title of "water Rocketry".',
+      location: 'Seminar Hall',
+      date: 'Nov 4',
+      time: '10:00am',
+      prize:["I - ₹2000", "II - ₹1000", "III- Trophy + Certificate"],
+      rules: [
+        [
+          'A team should consist of two members.',
+          'Participants should bring their own handmade water rocket and horizontal launchpad, set with 45° launch angle.',
+          '1 to 2 litre bottles can be used to build the water rocket.',
+          'Both the rocket and launchpad should  withstand a standard pressure of 60 psi with 40% water filled, without any technical failure, when air is pumped by the organizers.',
+          'Based on Distance covered horizontally, top 10 rockets will be qualified for round 2.'
+        ],
+        [
+          'The vertical launchpad is provided by the organizers.',
+          'Same durability conditions apply for round 2 as mentioned in round 1.',
+          'Top 10 rockets qualified from round 1 will compete in round 2.',
+          'Top three places are selected based on accurately measuring the air time of rockets when launched vertically.'
+        ]
+      ],
+      eventOrganizers: [
+        'Lokesh U E - 7904637424',
+        'Mohammed Zahid N - 8883281818'
+      ]
     },
     {
       eventName: 'Dance',
       id: 'event-non-tech-1',
       type: 1,
       imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
-      description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quibusdam deserunt, eius id quia molestiae ab asperiores fuga cupiditate veniam pariatur amet? Deleniti voluptate harum quibusdam saepe corrupti placeat optio.',
       eventUrl:'events/non-tech/1',
       registrationLink1: 'https://forms.gle/JBQZCfxknUqReLE68',
       registrationLink2: 'https://forms.gle/GHauiMkg1vk3yBQFA'
@@ -89,7 +228,6 @@ function App() {
       id: 'event-non-tech-2',
       type: 1,
       imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
-      description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quibusdam deserunt, eius id quia molestiae ab asperiores fuga cupiditate veniam pariatur amet? Deleniti voluptate harum quibusdam saepe corrupti placeat optio.',
       eventUrl:'events/non-tech/2',
       registrationLink1: 'https://forms.gle/y1qxsUgvGdLgNfLA6',
       registrationLink2: 'https://forms.gle/LavV85WCts7TEmQ36'
@@ -99,7 +237,6 @@ function App() {
       id: 'event-non-tech-3',
       type: 1,
       imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
-      description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quibusdam deserunt, eius id quia molestiae ab asperiores fuga cupiditate veniam pariatur amet? Deleniti voluptate harum quibusdam saepe corrupti placeat opt',
       eventUrl:'events/non-tech/3',
       registrationLink: 'https://forms.gle/CLhBBkgG8nGLbKaw6'
   
@@ -109,7 +246,6 @@ function App() {
       id: 'event-non-tech-4',
       type: 1,
       imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
-      description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quibusdam deserunt, eius id quia molestiae ab asperiores fuga cupiditate veniam pariatur amet? Deleniti voluptate harum quibusdam saepe corrupti placeat optio.',
       eventUrl:'events/non-tech/4',
       registrationLink: 'https://forms.gle/SiTdVHSHCnQExWySA'
     },
@@ -118,7 +254,6 @@ function App() {
       id: 'event-non-tech-5',
       type: 1,
       imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
-      description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quibusdam deserunt, eius id quia molestiae ab asperiores fuga cupiditate veniam pariatur amet? Deleniti voluptate harum quibusdam saepe corrupti placeat optio.',
       eventUrl:'events/non-tech/5',
       registrationLink: ''
     },
@@ -127,7 +262,6 @@ function App() {
       id: 'event-non-tech-6',
       type: 1,
       imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
-      description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quibusdam deserunt, eius id quia molestiae ab asperiores fuga cupiditate veniam pariatur amet? Deleniti voluptate harum quibusdam saepe corrupti placeat optio.',
       eventUrl:'events/non-tech/6',
       registrationLink: 'https://forms.gle/z4ufAc8EGyQPNaUM9'
     },
@@ -136,7 +270,6 @@ function App() {
       id: 'event-non-tech-7',
       type: 1,
       imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
-      description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quibusdam deserunt, eius id quia molestiae ab asperiores fuga cupiditate veniam pariatur amet? Deleniti voluptate harum quibusdam saepe corrupti placeat optio.',
       eventUrl:'events/non-tech/7',
       registrationLink: 'https://forms.gle/PVnBhBAkenG7zJPF6'
     },
@@ -145,7 +278,6 @@ function App() {
       id: 'event-non-tech-8',
       type: 1,
       imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
-      description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quibusdam deserunt, eius id quia molestiae ab asperiores fuga cupiditate veniam pariatur amet? Deleniti voluptate harum quibusdam saepe corrupti placeat optio.',
       eventUrl:'events/non-tech/8',
       registrationLink: 'https://forms.gle/CUBFL2N2tM2cZd3Z8'
     },
@@ -154,7 +286,6 @@ function App() {
       id: 'event-non-tech-9',
       type: 1,
       imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
-      description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quibusdam deserunt, eius id quia molestiae ab asperiores fuga cupiditate veniam pariatur amet? Deleniti voluptate harum quibusdam saepe corrupti placeat optio.',
       eventUrl:'events/non-tech/9',
       registrationLink: 'https://forms.gle/E1K885svUp8mDmz79'
     },
@@ -163,7 +294,6 @@ function App() {
       id: 'event-non-tech-10',
       type: 1,
       imgUrl: '/assets/event_images/little-boom-g3ece53c31_640.jpg',
-      description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quibusdam deserunt, eius id quia molestiae ab asperiores fuga cupiditate veniam pariatur amet? Deleniti voluptate harum quibusdam saepe corrupti placeat optio.',
       eventUrl:'events/non-tech/10',
       registrationLink: 'https://forms.gle/Ba9cydpn4xohY5L57'
     },
@@ -178,13 +308,13 @@ function App() {
           <Route element={<Events eventsList={eventsList}/>} path="/events"/>
           <Route element={<StudentAmbassador />} path='/student-ambassador'/>
           <Route element={<Sponsors />} path='/sponsors'/>
-          <Route element={<IndEvent indEvent={eventsList[0]}/>} path="/events/tech/1"/>
+          <Route element={<IndEvent3 indEvent={eventsList[0]}/>} path="/events/tech/1"/>
           <Route element={<IndEvent indEvent={eventsList[1]}/>} path="/events/tech/2"/>
           <Route element={<IndEvent indEvent={eventsList[2]}/>} path="/events/tech/3"/>
           <Route element={<IndEvent indEvent={eventsList[3]}/>} path="/events/tech/4"/>
           <Route element={<IndEvent indEvent={eventsList[4]}/>} path="/events/tech/5"/>
           <Route element={<IndEvent indEvent={eventsList[5]}/>} path="/events/tech/6"/>
-          <Route element={<IndEvent indEvent={eventsList[6]}/>} path="/events/tech/7"/>
+          <Route element={<IndEvent4 indEvent={eventsList[6]}/>} path="/events/tech/7"/>
           <Route element={<IndEvent2 indEvent={eventsList[7]}/>} path="/events/non-tech/1"/>
           <Route element={<IndEvent2 indEvent={eventsList[8]}/>} path="/events/non-tech/2"/>
           <Route element={<IndEvent indEvent={eventsList[9]}/>} path="/events/non-tech/3"/>
