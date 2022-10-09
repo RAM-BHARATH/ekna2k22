@@ -42,19 +42,23 @@ function Footer() {
                         <h2 className='text-center text-4xl my-4 cookie' id='contact'>Contact Us</h2>
                     </a>
                     <div className='w-full mx-auto flex flex-col items-center mb-5'>
-                        <h3 className='text-xl font-bold'>General:</h3>
+                        <h3 className='text-xl font-bold'>General Queries:</h3>
                         <ul className='list-decimal monts text-base'>
                             <li>Yazhini S - 75300 74020</li>
                             <li>Balaji S - 78689 28433</li>
                             <li> Arjun R - 9790790148</li>
                         </ul>
-                        <h3 className='text-xl font-bold'>Technical Events:</h3>
+                        <h3 className='text-xl font-bold'>Technical Event Queries:</h3>
                         <ul className='list-decimal monts text-base'>
                             <li> Vigneshwaran V - 8072899835</li>
                         </ul>
-                        <h3 className='text-xl font-bold'>Non-Technical Events:</h3>
+                        <h3 className='text-xl font-bold'>Non-Technical Event Queries:</h3>
                         <ul className='list-decimal monts text-base'>
                             <li>Sakthivel G R - 9789735839</li>
+                        </ul>
+                        <h3 className='text-xl font-bold'>Payment related Queries:</h3>
+                        <ul className='list-decimal monts text-base'>
+                            <li>Santhosh Kumar P - 73565 91700</li>
                         </ul>
                     </div>
                     <div className='mx-auto w-full flex justify-center'>

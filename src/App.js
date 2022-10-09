@@ -234,7 +234,7 @@ function App() {
       ],
       rules: [
           'Any style of Dance is allowed',
-          'Track limit for Round 1: 2 minutes',
+          'Track limit for Round 1: Maximum 2 minutes',
           'Track limit for Round 2: Maximum 3:30 minutes',
           'Bring your sound track',
           'Prelims will be there',
