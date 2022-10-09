@@ -26,8 +26,10 @@ function Main() {
           </div>
           <div className='w-4/5 mx-auto lg:w-1/2'>
             <ul className='mx-auto list-disc text-white font-bold monts'>
+              <li className='mx-auto my-1'>Overall championship will be awarded</li>
+              <li className='mx-auto my-1'>Interdepartmental fest and any engineering stream can participate</li>
               <li className='mx-auto my-1'>Exciting cash prizes and rewards for winners</li>
-              <li className='mx-auto my-1'>Participation certificates will be provided, if unfortunately you couldn't win</li>
+              <li className='mx-auto my-1'>Participation certificates will be provided for all participants.</li>
               <li className='mx-auto my-1'>Lunch will be provided for all participants</li>
             </ul>
             <p className='text-cyan-500 text-lg mt-4 font-bold'>**To register for the various events with just ₹150 of ticket,</p>

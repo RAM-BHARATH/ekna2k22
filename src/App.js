@@ -8,6 +8,7 @@ import IndEvent2 from './pages/IndEvent2';
 import IndEvent3 from './pages/IndEvent3';
 import IndEvent4 from './pages/IndEvent4';
 import NonTechEventTemplate from './pages/NonTechEventTemplate';
+import NonTechEventTemplateRounds from './pages/NonTechEventTemplateRounds';
 import StudentAmbassador from './pages/StudentAmbassador';
 import Sponsors from './pages/Sponsors';
 
@@ -22,9 +23,9 @@ function App() {
       imgUrl: '/assets/event_images/electro-matrix.jpeg',
       description: 'Electro-Matrix is the event all about playing with the Electronics with so much of fun and competitiveness. This event consists of tasks like design and debugging of electronic circuits.In Circuit design where the participants will design an electronic circuit in a competitive manner according to the desired O/P and given constraints. In Circuit Debugging, the task is all about the error identification and rectification in the electronic circuit on your way according to the desired O/P.',
       registrationLink: 'https://forms.gle/UpYawoYRJ2CYz7fV6',
-      location: 'Seminar Hall',
+      location: 'Main Campus',
       date: 'Nov 4',
-      time: '10:00am',
+      time: '9am - 9pm',
       prize:["I - ₹2000", "II - ₹1000", "III- Trophy + Certificate"],
       tasks: ['Design of Logic circuit with a Boolean expression in hand ( K-Map simplification may be needed )',
               'Design amplifier with op-amp at the desired gain .',
@@ -57,9 +58,9 @@ function App() {
       imgUrl: '/assets/event_images/analogy.jpeg',
       registrationLink: 'https://forms.gle/1AHQajCVTVib8PRN6',
       description: "A game of comparing science with nature . Everyone with a basic knowledge of science can participate in this game . It's a kind of quiz game with so much of fun. The team which get the  highest score will be the winner 🏆.",
-      location: 'Seminar Hall',
+      location: 'Main Campus',
       date: 'Nov 4',
-      time: '10:00am',
+      time: '9am - 9pm',
       prize:["I - ₹2000", "II - ₹1000", "III- Trophy + Certificate"],
       rules: [
         'There should be maximum 2 members per team',
@@ -84,9 +85,9 @@ function App() {
       imgUrl: '/assets/event_images/iquid.jpeg',
       registrationLink: 'https://forms.gle/Lc5n249gf719Q6nC6',
       description: 'IQuid is the most unique quest of all the events where all fields of engineering disciplines can participate in it. This event comprises various Mathematical  puzzles to solve in sequential stages with increasing difficulty of finding clues and some challenges for the human IQ and memory in every stage to pass on. The  person who cracks the overall twists and turns will top the event!',
-      location: 'Seminar Hall',
+      location: 'Main Campus',
       date: 'Nov 4',
-      time: '10:00am',
+      time: '9am - 9pm',
       prize:["I - ₹2000", "II - ₹1000", "III- Trophy + Certificate"],
       rules: [
         'The event will be conducted in 3 rounds Preliminary , Secondary , Finale',
@@ -111,9 +112,9 @@ function App() {
       imgUrl: '/assets/event_images/paper.jpeg',
       registrationLink: 'https://forms.gle/uLs9CGBptTmpVdFv6',
       description: 'Presenting a formal talk to share new information. A technical fest where all the departments can participate to show their way of presenting style, language and how effectively and promptly each one answer the questions. The one who attains the top three will be rewarded.',
-      location: 'Seminar Hall',
+      location: 'Main Campus',
       date: 'Nov 4',
-      time: '10:00am',
+      time: '9am - 9pm',
       prize:["I - ₹2000", "II - ₹1000", "III- Trophy + Certificate"],
       rules: [
         'Maximum number of participants in a Team is 2',
@@ -142,9 +143,9 @@ function App() {
       imgUrl: '/assets/event_images/robot-expo.jpeg',
       registrationLink: 'https://forms.gle/gwP9q1HDop4Kupyi6',
       description: "The robot expo where future meets today's possibilities and the participants from various department  can showcase their robots in this expo and their robots will be scrutinized by the panel of judges and the robot which flabbergast the panel will get exciting prizes.",
-      location: 'Seminar Hall',
+      location: 'Main Campus',
       date: 'Nov 4',
-      time: '10:00am',
+      time: '9am - 9pm',
       prize:["I - ₹2000", "II - ₹1000", "III- Trophy + Certificate"],
       rules: [
         'Team Participants should present before 9.00 am for registration and to get place allocation for their respective robots.',
@@ -166,9 +167,9 @@ function App() {
       imgUrl: '/assets/event_images/coder.jpeg',
       registrationLink: 'https://forms.gle/13rzRoZPURMA2fRMA',
       description: 'A contest to find the master coder in the room. Participants are faced with challenges like, writing code, debugging code, understanding logic and rewriting code. Marks are rewarded as per difficulty level and difficulty increases through stages. Top three coders will be rewarded and the winner will snatch the title of "Mr. coder" and cash prize.',
-      location: 'Seminar Hall',
+      location: 'Main Campus',
       date: 'Nov 4',
-      time: '10:00am',
+      time: '9am - 9pm',
       prize:["I - ₹2000", "II - ₹1000", "III- Trophy + Certificate"],
       rules: [
         'Two rounds will be conducted.',
@@ -191,9 +192,9 @@ function App() {
       imgUrl: '/assets/event_images/water-rocketry.jpeg',
       registrationLink: 'https://forms.gle/QXFNNLtYPARES5dNA',
       description: 'Teams with handmade water rockets compete against each other to find the best rocket among them. Top 3 Water rockets that perfectly manages the best aerodynamics, size  to weight ratio and low wind drag would be rewarded with amazing cash prize and the winner bags the title of "water Rocketry".',
-      location: 'Seminar Hall',
+      location: 'Main ',
       date: 'Nov 4',
-      time: '10:00am',
+      time: '9am - 9pm',
       prize:["I - ₹2000", "II - ₹1000", "III- Trophy + Certificate"],
       rules: [
         [
@@ -222,19 +223,25 @@ function App() {
       imgUrl: '/assets/event_images/solo dance.jpg',
       eventUrl:'events/non-tech/1',
       registrationLink: 'https://forms.gle/JBQZCfxknUqReLE68',
-      description: 'Did you have a unique skill in dance ? then this contest is for you .Solo dance is a contest that is performed by an Individual with the sound track ,Here you can express your own talent &Skills.',
-      location: 'Seminar Hall',
+      description: 'Do you have a unique skill in dance? Then this contest is for you. Solo dance is a contest that is performed by an Individual with the sound track. Here you can express your own talent &Skills.',
+      location: 'Main Campus',
       date: 'Nov 4',
-      time: '10:00am',
-      prize:["I - ", "II - ", "III- "],
+      time: '9am - 9pm',
+      prize:["Cash Prize & Trophy"],
+      rounds: [
+        'Round 1 - Prelims',
+        'Round 2 - Final'
+      ],
       rules: [
           'Any style of Dance is allowed',
-          'Track limit should be within 3:30 min',
-          'Sound track should be sent before two days',
+          'Track limit for Round 1: 2 minutes',
+          'Track limit for Round 2: Maximum 3:30 minutes',
+          'Bring your sound track',
           'Prelims will be there',
           'Props can be used',
           'No vulgarity in music/Performance/costumes',
           'Judges decision is final',
+          'The general rules & Regulation should be followed, otherwise it would lead to disqualification.'
       ],
       eventOrganizers: [
         'Sakthivel GR-9789735839'
@@ -247,19 +254,20 @@ function App() {
       imgUrl: '/assets/event_images/euphony.jpg',
       eventUrl:'events/non-tech/2',
       registrationLink: 'https://forms.gle/y1qxsUgvGdLgNfLA6',
-      description: 'Euphony is a grand solo singing event which is a great platform for all singers to showcase their innate talent through their euphonious voice. So do participate and  gear yourself up for an exhilarating event..',
-      location: 'Seminar Hall',
+      description: 'Euphony is a grand solo singing event which is a great platform for all singers to showcase their innate talent through their euphonious voice. So do participate and  gear yourself up for an exhilarating event.',
+      location: 'Main Campus',
       date: 'Nov 4',
-      time: '10:00am',
-      prize:["I - ", "II - ", "III- "],
+      time: '9am - 9pm',
+      prize:["Cash Prizes & Trophy"],
       rules: [
-        'Duration of the song can be between 2 to 3 minutes.',
-        'Song can be classical/Western',
-        'Karaoke is optional.',
+        'Duration of the song can be 4 to 5 minutes.',
+        'Song can be Classical/Western',
+        'Karaoke only allowed',
+        'Bring  Karaoke in pendrive',
         'The participants will be judged based on the song selection, voice quality, rhythm and their appeal to the audience.',
         'Obscenity of any kind is prohibited.',
         'Decision of the judges will be definite.',
-        'The general guidelines and time constraints must be rigorously adhered to in order to avoid participant disqualification.'
+        'The general guidelines and time constraints must be rigorously adhered to be in order to avoid participant disqualification.'
       ],
       eventOrganizers: [
         'Sakthivel GR - 9789735839',
@@ -273,10 +281,10 @@ function App() {
       eventUrl:'events/non-tech/3',
       registrationLink: 'https://forms.gle/CLhBBkgG8nGLbKaw6',
       description: 'PicaShow is a modern art contest where the artists have chance to show their fantastic painting. ',
-      location: 'Seminar Hall',
+      location: 'Main Campus',
       date: 'Nov 4',
-      time: '10:00am',
-      prize:["I - ", "II - ", "III- "],
+      time: '9am - 9pm',
+      prize:["Medals & Certificates"],
       rules: [
         'No of participants - 1',
         'Duration : 1 hour 30 minutes',
@@ -287,10 +295,10 @@ function App() {
         'Carry your own properties, things will not be provided here.',
         'Participants should explain their painting in front of judge.',
         'Judges decision are final.',
-        'The general rules & the time limits should be strictly followed.'
+        'General rules & the time limits should be strictly followed.'
       ],
       eventOrganizers: [
-        'Poovarasan I - 6379664859'
+        'Sowmiya. P - 9361592046'
       ]
   
     },
@@ -302,17 +310,17 @@ function App() {
       eventUrl:'events/non-tech/4',
       registrationLink: 'https://forms.gle/SiTdVHSHCnQExWySA',
       description: 'Fashion crisco is a show that provides the platform for the fashion designers to showcase their work and skills',
-      location: 'Seminar Hall',
+      location: 'Main Campus',
       date: 'Nov 4',
-      time: '10:00am',
-      prize:["I - ", "II - ", "III- "],
+      time: '9am - 9pm',
+      prize:["Cash Prizes & Trophy"],
       rules: [
-        'No. of participants: 1-10',
-        'Time limit (6-8)',
+        'Minimum:6 participants, Maximum: 10 participants',
+        'Time limit: 8 minutes',
         'Select any theme accordingly',
         'Carry your own props and costumes',
+        'Bring your sound Track',
         'No vulgarity in music/costumes',
-        'Sound track should be sent before two days',
         'Judges decision are final',
         'The general rules should be followed strictly otherwise the team or the person will get eliminated'
       ],
@@ -328,12 +336,12 @@ function App() {
       eventUrl:'events/non-tech/5',
       registrationLink: 'https://forms.gle/QtYY8tYEbBA77GYSA',
       description: 'Slick Standups is nothing but a standup comedy event. It Is An Individual Competition. Participants Will Be Judged On The Basis Of Content, fluency, Spontaneity, Presentation & Sense Of Humor.',
-      location: 'Seminar Hall',
+      location: 'Main Campus',
       date: 'Nov 4',
-      time: '10:00am',
-      prize:["I - ", "II - ", "III- "],
+      time: '9am - 9pm',
+      prize:["Cash Prize & Trophy"],
       rules: [
-        'Duration : 4 to 5 Minutes',
+        'Duration : Maximum 4 Minutes',
         'No Participant Can Point Out Any Individual Or Religion In Any Way And Any Dual Meaning Obscene Content Is Strictly Not Allowed.',
         'Decision Of The Judges Will Be Final And Binding.',
         'No Specific Language'
@@ -349,14 +357,16 @@ function App() {
       imgUrl: '/assets/event_images/photography.jpg',
       eventUrl:'events/non-tech/6',
       registrationLink: 'https://forms.gle/z4ufAc8EGyQPNaUM9',
-      description: 'Are you the person with the beautiful eyes who captures the moment with your magical device? then this platform is for you to showcase the moments captured by you. Theme : Architecture, Emotion, Reflection ,Women empowerment ,Child labour',
-      location: 'Seminar Hall',
+      description: 'Are you the person with the beautiful eyes who captures the moment with your magical device? then this platform is for you to showcase the moments captured by you.',
+      location: 'Main Campus',
       date: 'Nov 4',
-      time: '10:00am',
-      prize:["I - ", "II - ", "III- "],
+      time: '9am - 9pm',
+      prize:["Medals & Certificates"],
+      themes: ['Architecture', 'Street Photography', 'Reflection', 'Women Empowerment', 'Nature'],
       rules: [
         'Photos should not be edited',
         'Individual participation,team participation is not allowed',
+        
         'Photos should be sent to the given number in jpeg format'
       ],
       eventOrganizers: [
@@ -370,10 +380,10 @@ function App() {
       imgUrl: '/assets/event_images/mime.jpg',
       eventUrl:'events/non-tech/7',
       registrationLink: 'https://forms.gle/PVnBhBAkenG7zJPF6',
-      description: 'Nadiganda is a group mime event . It is a theatrical technique of suggesting action, character or emotion without words, using only gesture, expression and movement .',
-      location: 'Seminar Hall',
+      description: 'Nadiganda is a group mime event. It is a theatrical technique of suggesting action, character or emotion without words, using only gesture, expression and movement .',
+      location: 'Main Campus',
       date: 'Nov 4',
-      time: '10:00am',
+      time: '9am - 9pm',
       prize:["I - ", "II - ", "III- "],
       rules: [
         'Maximum 7-8 members per team.',
@@ -391,13 +401,13 @@ function App() {
       imgUrl: '/assets/event_images/Short film.jpg',
       eventUrl:'events/non-tech/8',
       registrationLink: 'https://forms.gle/CUBFL2N2tM2cZd3Z8',
-      location: 'Seminar Hall',
+      location: 'Main Campus',
       date: 'Nov 4',
-      time: '10:00am',
+      time: '9am - 9pm',
       prize:["I - ", "II - ", "III- "],
       description: 'Shorty Cutz is a event for Passionate Directors.You can express your Direction skills ! Create your shorty cutz and reveal your Passionate Directors.',
       rules: [
-        'Duration : 5-7 min',
+        'Duration : Maximum 6 minutes',
         'Any theme of your content',
         'No vulgarity in your videos',
         'Videos should be send before 2 days of the symposium',
@@ -410,26 +420,26 @@ function App() {
       ]
     },
     {
-      eventName: 'Group Dance',
+      eventName: 'Euphoria',
       id: 'event-non-tech-9',
       type: 1,
       imgUrl: '/assets/event_images/Euphoria.jpg',
       eventUrl:'events/non-tech/9',
       registrationLink: 'https://forms.gle/GHauiMkg1vk3yBQFA',
       description: 'Euphoria is a group dance contest where the dance troops are welcomed to give us a frenetic perfomance.',
-      location: 'Seminar Hall',
+      location: 'Main Campus',
       date: 'Nov 4',
-      time: '10:00am',
-      prize:["I - ", "II - ", "III- "],
+      time: '9am - 9pm',
+      prize:["Cash Prizes & Trophy"],
       rules: [
-        'No of participants (5-15)',
+        'Minimum: 5 participants, Maximum: 10 participants',
         'Any style of dance is allowed',
-        'Sound track should be within (3-4) mins',
+        'Maximum 5 minutes',
         'Prelims will be there',
         'No vulgarity in music/costume/perfomance',
-        'Sound track should be sent before two days',
-        'Judges decision is final',
-        'The general rules & the time limits should be strictly followed otherwise the team will get eliminated'
+        'Bring your sound track',
+        'Judges decision are final',
+        'The general rules & the time limits should be strictly followed otherwise the team will get disqualified'
       ],
       eventOrganizers: [
         'Sakthivel GR - 9789735839'
@@ -443,18 +453,18 @@ function App() {
       eventUrl:'events/non-tech/10',
       registrationLink: 'https://forms.gle/Ba9cydpn4xohY5L57',
       description: 'Quizite is a group quiz competition where contestants are welcomed to show their extensive knowledge.',
-      location: 'Seminar Hall',
+      location: 'Main Campus',
       date: 'Nov 4',
-      time: '10:00am',
-      prize:["I - ", "II - ", "III- "],
+      time: '9am - 9pm',
+      prize:["Medals & Certificates"],
       rules: [
-        'No of participants : 2-3',
-        'No of rounds : 3',
+        'Minimum: 2 participants, Maximum: 3 participants',
+        'No of rounds: 3',
         'Judges decision will be considered as final',
-        'General rules should be strictly followed or contestants would be eliminated'
+        'General rules should be strictly followed, otherwise contestants would be disqualified.'
       ],
       eventOrganizers: [
-        'NILOPARNISHA B - 6381044858'
+        'Niloparnisha B - 6381044858'
       ]
     },
   ]
@@ -475,12 +485,12 @@ function App() {
           <Route element={<IndEvent indEvent={eventsList[4]}/>} path="/events/tech/5"/>
           <Route element={<IndEvent indEvent={eventsList[5]}/>} path="/events/tech/6"/>
           <Route element={<IndEvent4 indEvent={eventsList[6]}/>} path="/events/tech/7"/>
-          <Route element={<NonTechEventTemplate indEvent={eventsList[7]}/>} path="/events/non-tech/1"/>
+          <Route element={<NonTechEventTemplateRounds indEvent={eventsList[7]}/>} path="/events/non-tech/1"/>
           <Route element={<NonTechEventTemplate indEvent={eventsList[8]}/>} path="/events/non-tech/2"/>
           <Route element={<NonTechEventTemplate indEvent={eventsList[9]}/>} path="/events/non-tech/3"/>
           <Route element={<NonTechEventTemplate indEvent={eventsList[10]}/>} path="/events/non-tech/4"/>
           <Route element={<NonTechEventTemplate indEvent={eventsList[11]}/>} path="/events/non-tech/5"/>
-          <Route element={<NonTechEventTemplate indEvent={eventsList[12]}/>} path="/events/non-tech/6"/>
+          <Route element={<NonTechEventTemplateRounds indEvent={eventsList[12]}/>} path="/events/non-tech/6"/>
           <Route element={<NonTechEventTemplate indEvent={eventsList[13]}/>} path="/events/non-tech/7"/>
           <Route element={<NonTechEventTemplate indEvent={eventsList[14]}/>} path="/events/non-tech/8"/>
           <Route element={<NonTechEventTemplate indEvent={eventsList[15]}/>} path="/events/non-tech/9"/>
