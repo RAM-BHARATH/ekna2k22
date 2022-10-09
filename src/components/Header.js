@@ -18,7 +18,7 @@ function Header({ bg }) {
           </a>
           <div className='flex items-center'>
             <div>
-              <a href="/student-ambassador" className='z-10 px-2 py-1 text-sm bg-orange-100 text-gray-800 m-auto rounded-md gemunu'>
+              <a href="/student-ambassador" className='z-10 px-2 py-1 text-xs bg-orange-100 text-gray-800 m-auto rounded-md monts'>
                 {/* bg-blue-400 */}
                   Student Ambassador
               </a>
@@ -31,7 +31,7 @@ function Header({ bg }) {
         <nav className={`sidemenu ${ sideMenu ?'open':'close' } monts font-bold`}>
           <ul className='flex flex-col justify-center items-center h-screen text-cyan-50 text-lg'>
             
-            <div>
+            <div className='flex flex-col items-center'>
               <li className='hover:text-cyan-700 hover:scale-110 transition-transform transition-transform-slow'>
                 <a href="/">
                   HOME

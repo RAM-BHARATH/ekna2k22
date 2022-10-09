@@ -25,7 +25,7 @@ function App() {
       registrationLink: 'https://forms.gle/UpYawoYRJ2CYz7fV6',
       location: 'Main Campus',
       date: 'Nov 4',
-      time: '9am - 9pm',
+      time: '9am - 3:30pm',
       prize:["I - ₹2000", "II - ₹1000", "III- Trophy + Certificate"],
       tasks: ['Design of Logic circuit with a Boolean expression in hand ( K-Map simplification may be needed )',
               'Design amplifier with op-amp at the desired gain .',
@@ -57,10 +57,10 @@ function App() {
       type: 0,
       imgUrl: '/assets/event_images/analogy.jpeg',
       registrationLink: 'https://forms.gle/1AHQajCVTVib8PRN6',
-      description: "A game of comparing science with nature . Everyone with a basic knowledge of science can participate in this game . It's a kind of quiz game with so much of fun. The team which get the  highest score will be the winner 🏆.",
+      description: "A game of comparing science with nature . Everyone with a basic knowledge of science can participate in this game. It's a kind of quiz game with so much of fun. The team which get the  highest score will be the winner 🏆.",
       location: 'Main Campus',
       date: 'Nov 4',
-      time: '9am - 9pm',
+      time: '9am - 3:30pm',
       prize:["I - ₹2000", "II - ₹1000", "III- Trophy + Certificate"],
       rules: [
         'There should be maximum 2 members per team',
@@ -73,7 +73,7 @@ function App() {
         'Other information will be given before the starting of event'
       ],
       eventOrganizers: [
-        'Gokul K - Lokes6369173273',
+        'Gokul K - 6369173273',
         'Jayaprabakshini V P -  9944256036'
       ]
     },
@@ -87,7 +87,7 @@ function App() {
       description: 'IQuid is the most unique quest of all the events where all fields of engineering disciplines can participate in it. This event comprises various Mathematical  puzzles to solve in sequential stages with increasing difficulty of finding clues and some challenges for the human IQ and memory in every stage to pass on. The  person who cracks the overall twists and turns will top the event!',
       location: 'Main Campus',
       date: 'Nov 4',
-      time: '9am - 9pm',
+      time: '9am - 3:30pm',
       prize:["I - ₹2000", "II - ₹1000", "III- Trophy + Certificate"],
       rules: [
         'The event will be conducted in 3 rounds Preliminary , Secondary , Finale',
@@ -114,14 +114,14 @@ function App() {
       description: 'Presenting a formal talk to share new information. A technical fest where all the departments can participate to show their way of presenting style, language and how effectively and promptly each one answer the questions. The one who attains the top three will be rewarded.',
       location: 'Main Campus',
       date: 'Nov 4',
-      time: '9am - 9pm',
+      time: '9am - 3:30pm',
       prize:["I - ₹2000", "II - ₹1000", "III- Trophy + Certificate"],
       rules: [
         'Maximum number of participants in a Team is 2',
         'One person  may not be a part of multiple teams for the same event.',
         'Paper should be in IEEE Format.',
         'Abstract should not exceed more than 250 words and Paper should not exceed 15 pages.',
-        'Kindly Mail your abstract, paper and ppt . The difficulties  will be addressed through the same email-id(eknatechnicalevents@gmail.com).',
+        'Kindly Mail your abstract, paper and ppt . The difficulties  will be addressed through the same email-id (eknatechnicalevents@gmail.com).',
         'The mail with submissions should contain: Title- theme of the paper, Names of the authors,Phone no of the authors, E-mail ID’s',
         'Participants should bring hardcopies and soft-copies of the submitted paper and PowerPoint presentations must be in the .ppt or .pptx format.',
         'Hard copies should be submitted  before presentation to the judges',
@@ -145,7 +145,7 @@ function App() {
       description: "The robot expo where future meets today's possibilities and the participants from various department  can showcase their robots in this expo and their robots will be scrutinized by the panel of judges and the robot which flabbergast the panel will get exciting prizes.",
       location: 'Main Campus',
       date: 'Nov 4',
-      time: '9am - 9pm',
+      time: '9am - 3:30pm',
       prize:["I - ₹2000", "II - ₹1000", "III- Trophy + Certificate"],
       rules: [
         'Team Participants should present before 9.00 am for registration and to get place allocation for their respective robots.',
@@ -169,7 +169,7 @@ function App() {
       description: 'A contest to find the master coder in the room. Participants are faced with challenges like, writing code, debugging code, understanding logic and rewriting code. Marks are rewarded as per difficulty level and difficulty increases through stages. Top three coders will be rewarded and the winner will snatch the title of "Mr. coder" and cash prize.',
       location: 'Main Campus',
       date: 'Nov 4',
-      time: '9am - 9pm',
+      time: '9am - 3:30m',
       prize:["I - ₹2000", "II - ₹1000", "III- Trophy + Certificate"],
       rules: [
         'Two rounds will be conducted.',
@@ -192,9 +192,9 @@ function App() {
       imgUrl: '/assets/event_images/water-rocketry.jpeg',
       registrationLink: 'https://forms.gle/QXFNNLtYPARES5dNA',
       description: 'Teams with handmade water rockets compete against each other to find the best rocket among them. Top 3 Water rockets that perfectly manages the best aerodynamics, size  to weight ratio and low wind drag would be rewarded with amazing cash prize and the winner bags the title of "water Rocketry".',
-      location: 'Main ',
+      location: 'Main Playground',
       date: 'Nov 4',
-      time: '9am - 9pm',
+      time: '9am - 3:30pm',
       prize:["I - ₹2000", "II - ₹1000", "III- Trophy + Certificate"],
       rules: [
         [
@@ -364,9 +364,10 @@ function App() {
       prize:["Medals & Certificates"],
       themes: ['Architecture', 'Street Photography', 'Reflection', 'Women Empowerment', 'Nature'],
       rules: [
-        'Photos should not be edited',
-        'Individual participation,team participation is not allowed',
-        'Photos should be sent to the given number(7356591700) in jpeg format',
+        'Photos should not be edited.',
+        'Individual participation.',
+        'Team participation is not allowed.',
+        'Photos should be sent to the given number(7356591700) in jpeg format.',
       ],
       eventOrganizers: [
         'Santhosh Kumar.P - 7356591700'

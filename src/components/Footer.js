@@ -20,7 +20,7 @@ function Footer() {
                     <h2 className='text-center text-4xl my-4 cookie'>Address</h2>
                     <div className='mx-auto w-full p-2 text-lg'>
                         <div className='mx-auto text-justify monts'>
-                            <p className='text-base'>Anna University Regional Campus - CBE,</p>
+                            <p className='text-base'>Anna University Regional Campus - Coimbatore,</p>
                             <p className='text-base'>Maruthamalai Main Road,</p>
                             <p className='text-base'>Navavoor,</p>
                             <p className='text-base'>Coimbatore - 641046.</p>
