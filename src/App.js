@@ -66,7 +66,7 @@ function App() {
         'There should be maximum 2 members per team',
         'You can represent your team with a name',
         'The game may be conducted in mobile phones so a person from team can join the quiz with their phone and other should not use his/ her phone to search any answer or for other purpose',
-        'Persons from different institutions can be a part of the same team. However, one person',
+        'Persons from different institutions can be a part of the same team. However, one person may not be a part of multiple teams for the same event.',
         'Depending upon scores only winner is decided',
         'The quiz may be of three rounds. First is filtering round , then semifinals and finals.',
         'Violating rules may result in immediate disqualification of the team form the game.',
