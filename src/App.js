@@ -121,7 +121,7 @@ function App() {
         'One person  may not be a part of multiple teams for the same event.',
         'Paper should be in IEEE Format.',
         'Abstract should not exceed more than 250 words and Paper should not exceed 15 pages.',
-        'Kindly Mail your abstract, paper and ppt . The difficulties  will be addressed through the same email-id.',
+        'Kindly Mail your abstract, paper and ppt . The difficulties  will be addressed through the same email-id(eknatechnicalevents@gmail.com).',
         'The mail with submissions should contain: Title- theme of the paper, Names of the authors,Phone no of the authors, E-mail ID’s',
         'Participants should bring hardcopies and soft-copies of the submitted paper and PowerPoint presentations must be in the .ppt or .pptx format.',
         'Hard copies should be submitted  before presentation to the judges',
@@ -227,7 +227,7 @@ function App() {
       location: 'Main Campus',
       date: 'Nov 4',
       time: '9am - 9pm',
-      prize:["Cash Prize & Trophy"],
+      prize:["Cash Prizes & Trophy"],
       rounds: [
         'Round 1 - Prelims',
         'Round 2 - Final'
@@ -244,7 +244,7 @@ function App() {
           'The general rules & Regulation should be followed, otherwise it would lead to disqualification.'
       ],
       eventOrganizers: [
-        'Sakthivel GR-9789735839'
+        'Thinesh Raj - 9944999259'
       ]
     },
     {
@@ -339,7 +339,7 @@ function App() {
       location: 'Main Campus',
       date: 'Nov 4',
       time: '9am - 9pm',
-      prize:["Cash Prize & Trophy"],
+      prize:["Cash Prizes & Trophy"],
       rules: [
         'Duration : Maximum 4 Minutes',
         'No Participant Can Point Out Any Individual Or Religion In Any Way And Any Dual Meaning Obscene Content Is Strictly Not Allowed.',
@@ -366,8 +366,7 @@ function App() {
       rules: [
         'Photos should not be edited',
         'Individual participation,team participation is not allowed',
-        
-        'Photos should be sent to the given number in jpeg format'
+        'Photos should be sent to the given number(7356591700) in jpeg format',
       ],
       eventOrganizers: [
         'Santhosh Kumar.P - 7356591700'
@@ -384,7 +383,7 @@ function App() {
       location: 'Main Campus',
       date: 'Nov 4',
       time: '9am - 9pm',
-      prize:["I - ", "II - ", "III- "],
+      prize:["Cash Prizes & Trophies"],
       rules: [
         'Maximum 7-8 members per team.',
         'Duration : 4-5 minutes',
@@ -404,7 +403,7 @@ function App() {
       location: 'Main Campus',
       date: 'Nov 4',
       time: '9am - 9pm',
-      prize:["I - ", "II - ", "III- "],
+      prize:["Cash Prizes & Trophies"],
       description: 'Shorty Cutz is a event for Passionate Directors.You can express your Direction skills ! Create your shorty cutz and reveal your Passionate Directors.',
       rules: [
         'Duration : Maximum 6 minutes',
@@ -435,7 +434,6 @@ function App() {
         'Minimum: 5 participants, Maximum: 10 participants',
         'Any style of dance is allowed',
         'Maximum 5 minutes',
-        'Prelims will be there',
         'No vulgarity in music/costume/perfomance',
         'Bring your sound track',
         'Judges decision are final',

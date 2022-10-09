@@ -21,12 +21,12 @@ function EventList({ eventsList }) {
         <div className='gap-y-4 max-w-100 lg:max-w-5xl justify-center mx-auto mt-24 pb-1 lg:pb-20'>
           <h2 className='cookie text-5xl text-center my-10'>Events</h2>
           <div className='w-full justify-between cookie'>
-            <span onClick={()=> chooseEventList(0)} className={`${!choice ? 'underline text-neutral-900' : 'text-neutral-500'} text-2xl mx-4 lg:text-6xl`}>
+            <span onClick={()=> chooseEventList(0)} className={`${!choice ? 'underline text-neutral-900' : 'text-neutral-500'} text-xl mx-2 lg:text-6xl`}>
               <img src="/assets/icons/tech.svg" alt="" className='w-6 h-6 mx-1 inline'/>
               Technical
             </span>
-            <span onClick={()=> chooseEventList(1)} className={`${!choice ? 'text-neutral-500' : 'underline text-neutral-900'} text-2xl mx-4 lg:text-6xl`}>
-            <img src="/assets/icons/non-tech.svg" alt="" className='w-6 h-6 mx-1 inline'/>
+            <span onClick={()=> chooseEventList(1)} className={`${!choice ? 'text-neutral-500' : 'underline text-neutral-900'} text-xl mx-2 lg:text-6xl`}>
+            <img src="/assets/icons/non-tech-2.svg" alt="" className='w-6 h-6 mx-1 inline'/>
               Non-Technical
             </span>
           </div>

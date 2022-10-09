@@ -27,7 +27,7 @@ function Sponsors() {
                     </p>
                     <button className='px-4 py-3 rounded-md bg-orange-100 text-black my-3 hover:bg-slate-100 w-4/5 mx-auto gemunu'>
                     <a 
-                        href="https://drive.google.com/file/d/1X62cKUkSuhuMtoX2z9tFktrcX0xaDFvH/view?usp=sharing" 
+                        href="https://drive.google.com/file/d/10P9QMQ-56qK4JwknFQtk0NSdMcCjSXEu/view?usp=drivesdk" 
                         target='_blank' rel='noreferrer'>
                             Sponsors Brochure
                     </a>

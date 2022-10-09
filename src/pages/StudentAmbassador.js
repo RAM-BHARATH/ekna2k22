@@ -73,27 +73,27 @@ function StudentAmbassador() {
                             </tr>
                         </tbody>
                     </table>
-                    <table className="table-fixed border-spacing-2 border-black border-2 my-10 mx-auto cookie text-lg">
+                    <table className="table-fixed border-spacing-2 border-black border-2 my-10 mx-auto text-base cookie text-lg">
                         <thead>
                             <tr>
-                                <th className='p-3 border-black border-2'>Zones</th>
-                                <th className='p-3 border-black border-2'>Silver</th>
-                                <th className='p-3 border-black border-2'>Gold</th>
-                                <th className='p-3 border-black border-2'>Diamond</th>
+                                <th className='p-2 border-black border-2'>Zones</th>
+                                <th className='p-2 border-black border-2'>Silver</th>
+                                <th className='p-2 border-black border-2'>Gold</th>
+                                <th className='p-2 border-black border-2'>Diamond</th>
                             </tr>
                         </thead>
                         <tbody className='border-spacing-2 border-black border-2 monts'>
                             <tr className='border-spacing-2 border-black border-2'>
-                                <td className='p-3 border-black border-2'>Coimbatore</td>
-                                <td className='p-3 border-black border-2'>15-25</td>
-                                <td className='p-3 border-black border-2'>25-40</td>
-                                <td className='p-3 border-black border-2'>40-60</td>
+                                <td className='p-2 border-black border-2'>Coimbatore</td>
+                                <td className='p-2 border-black border-2'>15-25</td>
+                                <td className='p-2 border-black border-2'>25-40</td>
+                                <td className='p-2 border-black border-2'>40-60</td>
                             </tr>
                             <tr className='border-spacing-2 border-black border-2'>
-                                <td className='p-3 border-black border-2'>Other Districts</td>
-                                <td className='p-3 border-black border-2'>10-20</td>
-                                <td className='p-3 border-black border-2'>20-30</td>
-                                <td className='p-3 border-black border-2'>30-50</td>
+                                <td className='p-2 border-black border-2'>Other Districts</td>
+                                <td className='p-2 border-black border-2'>10-20</td>
+                                <td className='p-2 border-black border-2'>20-30</td>
+                                <td className='p-2 border-black border-2'>30-50</td>
                             </tr>
                         </tbody>
                     </table>
