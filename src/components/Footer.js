@@ -41,24 +41,27 @@ function Footer() {
                     <a id="contact">
                         <h2 className='text-center text-4xl my-4 cookie' id='contact'>Contact Us</h2>
                     </a>
-                    <div className='w-full mx-auto flex flex-col items-center mb-5'>
-                        <h3 className='text-xl font-bold'>General Queries:</h3>
-                        <ul className='list-decimal monts text-base'>
+                    <div className='w-full flex flex-col  mb-5 text-left'>
+                        <h3 className='text-xl font-bold text-left'>General Queries:</h3>
+                        <ul className='list-decimal monts text-base mx-7'>
                             <li>Yazhini S - 75300 74020</li>
                             <li>Balaji S - 78689 28433</li>
                             <li> Arjun R - 9790790148</li>
                         </ul>
                         <h3 className='text-xl font-bold'>Technical Event Queries:</h3>
-                        <ul className='list-decimal monts text-base'>
-                            <li> Vigneshwaran V - 8072899835</li>
+                        <ul className='list-decimal monts text-base mx-7'>
+                            <li>Vigneshwaran V - 8072899835</li>
+                            <li>Naveenraj K - 6380824773</li>
                         </ul>
                         <h3 className='text-xl font-bold'>Non-Technical Event Queries:</h3>
-                        <ul className='list-decimal monts text-base'>
+                        <ul className='list-decimal monts text-base mx-7'>
                             <li>Sakthivel G R - 9789735839</li>
+                            <li>Obliraj R - 7010069143</li>
                         </ul>
                         <h3 className='text-xl font-bold'>Payment related Queries:</h3>
-                        <ul className='list-decimal monts text-base'>
-                            <li>Santhosh Kumar P - 73565 91700</li>
+                        <ul className='list-decimal monts text-base mx-7'>
+                            <li>Santhosh Kumar P - 7356591700</li>
+                            <li>Boopathi B - 9150406393</li>
                         </ul>
                     </div>
                     <div className='mx-auto w-full flex justify-center'>

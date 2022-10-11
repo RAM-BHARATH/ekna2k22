@@ -132,7 +132,7 @@ function App() {
       ],
       eventOrganizers: [
         'Geetha N - 8778483779',
-        'Poovarasan I - 6379664859'
+        'Ganesh D - 8220424348'
       ]
     },
     {
@@ -361,7 +361,7 @@ function App() {
       location: 'Main Campus',
       date: 'Nov 4',
       time: '9am - 9pm',
-      prize:["Medals & Certificates"],
+      prize:["Cash Prizes & Trophy"],
       themes: ['Architecture', 'Street Photography', 'Reflection', 'Women Empowerment', 'Nature'],
       rules: [
         'Photos should not be edited.',
@@ -391,7 +391,8 @@ function App() {
         'Carry your own properties and things for the performance'
       ],
       eventOrganizers: [
-        'Kavin Kumar C - 6383216478'
+        'Kavin Kumar C - 6383216478',
+        'Obliraj R - 7010069143'
       ]
     },
     {

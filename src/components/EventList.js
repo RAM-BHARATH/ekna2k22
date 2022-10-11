@@ -19,7 +19,7 @@ function EventList({ eventsList }) {
   return (
       <div>
         <div className='gap-y-4 max-w-100 lg:max-w-5xl justify-center mx-auto mt-24 pb-1 lg:pb-20'>
-          <h2 className='cookie text-5xl text-center my-10'>Events</h2>
+          <h2 className='cookie text-5xl text-center my-10 text-sky-800'>Events</h2>
           <div className='w-full justify-between cookie'>
             <span onClick={()=> chooseEventList(0)} className={`${!choice ? 'underline text-neutral-900' : 'text-neutral-500'} text-xl mx-2 lg:text-6xl`}>
               <img src="/assets/icons/tech.svg" alt="" className='w-6 h-6 mx-1 inline'/>

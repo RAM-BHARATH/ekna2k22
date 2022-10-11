@@ -12,13 +12,21 @@ function Sponsors() {
         sponsorName: 'Twinbirds',
         sponsorLogo: '/assets/sponsors/twin-birds.jpeg',
     },
+    {
+        sponsorName: 'M3 La-Di-Da',
+        sponsorLogo: '/assets/sponsors/m3-la-di-da.jpg',
+    },
+    {
+        sponsorName: 'Sun Smart TV',
+        sponsorLogo: '/assets/sponsors/sun-smart.jpg',
+    },
   ]
   return (
     <div className='w-screen pattern-bg-2 min-h-screen text-center'>
         <Header bg='bg-cyan-900'/>
         <div className='p-5'>
             <div className='my-24'>
-                <h1 className='text-6xl cookie'>Sponsors</h1>
+                <h1 className='text-6xl cookie text-sky-800'>Sponsors</h1>
                 <div className='lg:w-2/3 text-justify mx-auto my-10 monts justify-center flex flex-col'>
                     <p>
                         Sponsors are our foremost supporters for  happening various events in this symposium.
@@ -38,17 +46,22 @@ function Sponsors() {
                     <div className="flex animate-infinite absolute left-0 lg:w-1/2 lg:mx-auto">
                         <div className="flex w-1/2 justify-between items-center logo lg:mx-auto">
                             <a href="/" className='mx-2 h-48 w-72'><img src={sponsors[0].sponsorLogo} alt="" className='h-24 w-72'/></a>
+                            <a href="/" className='mx-2 h-48 w-72'><img src={sponsors[1].sponsorLogo} alt="" className='h-24 w-72' /></a>
                             <a href="/" className='mx-2 h-48 w-72'><img src={sponsors[0].sponsorLogo} alt="" className='h-24 w-72' /></a>
-                            <a href="/" className='mx-2 h-48 w-72'><img src={sponsors[0].sponsorLogo} alt="" className='h-24 w-72' /></a>
+                            <a href="/" className='mx-2 h-48 w-72'><img src={sponsors[1].sponsorLogo} alt="" className='h-24 w-72' /></a>
                         </div>
                         <div className="flex w-1/2 justify-between items-center logo">
                             <a href="/" className='mx-2 h-48 w-72'><img src={sponsors[0].sponsorLogo} alt="" className='h-24 w-72' /></a>
+                            <a href="/" className='mx-2 h-48 w-72'><img src={sponsors[1].sponsorLogo} alt="" className='h-24 w-72' /></a>
                             <a href="/" className='mx-2 h-48 w-72'><img src={sponsors[0].sponsorLogo} alt="" className='h-24 w-72' /></a>
-                            <a href="/" className='mx-2 h-48 w-72'><img src={sponsors[0].sponsorLogo} alt="" className='h-24 w-72' /></a>
+                            <a href="/" className='mx-2 h-48 w-72'><img src={sponsors[1].sponsorLogo} alt="" className='h-24 w-72' /></a>
                         </div>
                     </div>
                 </div>
+                <h2 className='text-5xl border-b-black border-b-2 w-fit mx-auto cookie'>Media Partners</h2>
+                <div className="border mt-6 lg:mx-auto">
 
+                </div>
                 <h2 className='text-5xl border-b-black border-b-2 w-fit mx-auto cookie'>How to become a Sponsor?</h2>
                 <div className='lg:w-2/3 text-justify mx-auto my-10 monts'>
                     To join as a one of sponsor to our symposium events,

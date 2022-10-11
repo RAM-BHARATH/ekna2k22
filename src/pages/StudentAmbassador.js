@@ -11,9 +11,9 @@ function StudentAmbassador() {
         <div>
             <div className='w-screen min-h-screen pattern-bg-2 p-5 text-center'>
                 <div className='my-24'>
-                    <h1 className='text-5xl cookie'>Student Ambassador</h1>
+                    <h1 className='text-5xl text-sky-800 cookie'>Student Ambassador</h1>
                     <div className='p-3 lg:mx-auto lg:w-2/3 text-justify monts'>
-                    <span className='text-3xl cookie'>Hello Ambassador,</span><br />&nbsp;&nbsp;Student Ambassadors act as the pillars of Ekna'22 and work to promote the event in their respective colleges. Student ambassadors are selected to positively represent a college or university as they help prospective students by answering questions and helping students participate in the fest. Those selected to be student ambassadors will build a professional resume, strengthen their leadership skills and improve their communication abilities.
+                    <span className='text-3xl text-sky-800 cookie'>Hello Ambassador,</span><br />&nbsp;&nbsp;Student Ambassadors act as the pillars of Ekna'22 and work to promote the event in their respective colleges. Student ambassadors are selected to positively represent a college or university as they help prospective students by answering questions and helping students participate in the fest. Those selected to be student ambassadors will build a professional resume, strengthen their leadership skills and improve their communication abilities.
                     </div>
                     <h2 className='text-3xl w-fit mx-auto border-b-black border-2 cookie'>Roles &amp; Responsibilities</h2>
                     <div className='p-3 lg:mx-auto lg:w-2/3 text-justify monts'>
@@ -27,22 +27,22 @@ function StudentAmbassador() {
                     <h2 className='text-3xl w-fit mx-auto border-b-black border-2 cookie'>Why to become a Student Ambassador?</h2>
                     <div className='p-3 lg:mx-auto lg:w-2/3 text-justify monts'>
                         <ul className='list-disc text-justify'>
-                            <li className='font-bold'>Enhance communication skills.</li>
+                            <li className='font-bold'>Enhance your communication skills.</li>
                             <li className='font-bold'>Polish your professional skills for future career opportunities.</li>
-                            <li className='font-bold'>Gain valuable volunteer experience</li>
+                            <li className='font-bold'>Gain valuable volunteer experience.</li>
                             <li className='font-bold'>Develop strong leadership skills.</li>
-                            <li className='font-bold'>Increase self-esteem and self-confidence.</li>
-                            <li className='font-bold'>Opportunity to represent your institution</li>
-                            <li className='font-bold'>To build your resume</li>                            
+                            <li className='font-bold'>Increase your self-esteem and self-confidence.</li>
+                            <li className='font-bold'>Opportunity to represent your institution.</li>
+                                                  
                         </ul>
                     </div>
                     <h2 className='text-3xl w-fit mx-auto border-b-black border-2 cookie'>Benefits of becoming a Student Ambassador</h2>
                     <table className="table-fixed border-spacing-2 border-black border-2 my-10 mx-auto">
                         <thead className='cookie text-xl'>
                             <tr>
-                                <th className='p-2 border-black border-2'>Silver</th>
-                                <th className='p-2 border-black border-2'>Gold</th>
-                                <th className='p-2 border-black border-2'>Diamond</th>
+                                <th className='p-2 border-black border-2 text-slate-500'>Silver</th>
+                                <th className='p-2 border-black border-2 text-yellow-500'>Gold</th>
+                                <th className='p-2 border-black border-2 text-stone-700'>Diamond</th>
                             </tr>
                         </thead>
                         <tbody className='border-spacing-2 border-black border-2 monts text-sm'>
@@ -73,13 +73,14 @@ function StudentAmbassador() {
                             </tr>
                         </tbody>
                     </table>
+                    <h2 className='text-3xl w-fit mx-auto border-b-black border-2 cookie'>Category Criteria</h2>
                     <table className="table-fixed border-spacing-2 border-black border-2 my-10 mx-auto text-base cookie text-lg">
                         <thead>
                             <tr>
                                 <th className='p-2 border-black border-2'>Zones</th>
-                                <th className='p-2 border-black border-2'>Silver</th>
-                                <th className='p-2 border-black border-2'>Gold</th>
-                                <th className='p-2 border-black border-2'>Diamond</th>
+                                <th className='p-2 border-black border-2 text-slate-500'>Silver</th>
+                                <th className='p-2 border-black border-2 text-yellow-500'>Gold</th>
+                                <th className='p-2 border-black border-2 text-stone-700'>Diamond</th>
                             </tr>
                         </thead>
                         <tbody className='border-spacing-2 border-black border-2 monts'>
