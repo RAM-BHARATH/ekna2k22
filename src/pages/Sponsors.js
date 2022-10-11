@@ -16,9 +16,12 @@ function Sponsors() {
         sponsorName: 'M3 La-Di-Da',
         sponsorLogo: '/assets/sponsors/m3-la-di-da.jpg',
     },
+  ]
+
+  const mediaPartners = [
     {
-        sponsorName: 'Sun Smart TV',
-        sponsorLogo: '/assets/sponsors/sun-smart.jpg',
+        mediaPartnerName: 'Sun Smart TV',
+        mediaPartnerLogo: '/assets/sponsors/sun-smart.jpg',
     },
   ]
   return (
@@ -33,7 +36,7 @@ function Sponsors() {
                         To visit our sponsorship brochure,
                         Click the button below 👇...
                     </p>
-                    <button className='px-4 py-3 rounded-md bg-orange-100 text-black my-3 hover:bg-slate-100 w-4/5 mx-auto gemunu'>
+                    <button className='px-4 py-3 rounded-md bg-orange-100 text-black my-3 hover:bg-slate-100 w-3/5 mx-auto gemunu'>
                     <a 
                         href="https://drive.google.com/file/d/10P9QMQ-56qK4JwknFQtk0NSdMcCjSXEu/view?usp=drivesdk" 
                         target='_blank' rel='noreferrer'>
@@ -42,7 +45,7 @@ function Sponsors() {
                 </button>
                 </div>
                 <h2 className='text-5xl border-b-black border-b-2 w-fit mx-auto cookie'>Our Sponsors</h2>
-                <div className="border border-brand-primary border-l-0 border-r-0 container lg:p-20 mt-6 overflow-hidden py-24 relative lg:mx-auto">
+                {/* <div className="border border-brand-primary border-l-0 border-r-0 container lg:p-20 mt-6 overflow-hidden py-24 relative lg:mx-auto">
                     <div className="flex animate-infinite absolute left-0 lg:w-1/2 lg:mx-auto">
                         <div className="flex w-1/2 justify-between items-center logo lg:mx-auto">
                             <a href="/" className='mx-2 h-48 w-72'><img src={sponsors[0].sponsorLogo} alt="" className='h-24 w-72'/></a>
@@ -57,10 +60,21 @@ function Sponsors() {
                             <a href="/" className='mx-2 h-48 w-72'><img src={sponsors[1].sponsorLogo} alt="" className='h-24 w-72' /></a>
                         </div>
                     </div>
+                </div> */}
+                <div className='flex flex-wrap py-10 w-2/3 lg:w-4/5 mx-auto justify-center'>
+                    {
+                        sponsors.map(sponsor => (
+                            <img className="m-4 lg:w-80"  src={`${sponsor.sponsorLogo}`} alt={`${sponsor.sponsorName}`} key={sponsor.sponsor}/>
+                        ))
+                    }
                 </div>
                 <h2 className='text-5xl border-b-black border-b-2 w-fit mx-auto cookie'>Media Partners</h2>
-                <div className="border mt-6 lg:mx-auto">
-
+                <div className='flex flex-wrap py-10 w-2/3 lg:w-4/5 mx-auto justify-center'>
+                    {
+                        mediaPartners.map(mediaPartner => (
+                            <img className="m-4 lg:w-80"  src={`${mediaPartner.mediaPartnerLogo}`} alt={`${mediaPartner.mediaPartnerName}`} key={mediaPartner.mediaPartner}/>
+                        ))
+                    }
                 </div>
                 <h2 className='text-5xl border-b-black border-b-2 w-fit mx-auto cookie'>How to become a Sponsor?</h2>
                 <div className='lg:w-2/3 text-justify mx-auto my-10 monts'>
@@ -73,8 +87,8 @@ function Sponsors() {
                             Register as Sponsor
                     </a>
                 </button>
-                <h2 className='text-3xl w-fit my-5 monts text-left cookie'>For any queries,</h2>
-                <ul className='monts text-left'>
+                <h2 className='text-3xl w-fit my-5 monts text-left cookie lg:text-center lg:mx-auto'>For any queries,</h2>
+                <ul className='monts text-left lg:text-center'>
                     <li>Yazhini S - 75300 74020</li>
                     <li>Sakthivel GR - 9789735839</li>
                 </ul>
