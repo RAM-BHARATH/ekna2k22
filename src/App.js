@@ -260,14 +260,14 @@ function App() {
       time: '9am - 9pm',
       prize:["Cash Prizes & Trophy"],
       rules: [
-        'Duration of the song can be 4 to 5 minutes.',
+        'Duration of the song can be 3 to 4 minutes.',
         'Song can be Classical/Western',
         'Karaoke only allowed',
         'Bring  Karaoke in pendrive',
         'The participants will be judged based on the song selection, voice quality, rhythm and their appeal to the audience.',
         'Obscenity of any kind is prohibited.',
         'Decision of the judges will be definite.',
-        'The general guidelines and time constraints must be rigorously adhered to be in order to avoid participant disqualification.'
+        'The general guidelines and time constraints must be rigorously adhered to in order to avoid participant disqualification.'
       ],
       eventOrganizers: [
         'Sakthivel GR - 9789735839',

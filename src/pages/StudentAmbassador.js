@@ -32,8 +32,7 @@ function StudentAmbassador() {
                             <li className='font-bold'>Gain valuable volunteer experience.</li>
                             <li className='font-bold'>Develop strong leadership skills.</li>
                             <li className='font-bold'>Increase your self-esteem and self-confidence.</li>
-                            <li className='font-bold'>Opportunity to represent your institution.</li>
-                                                  
+                            <li className='font-bold'>Opportunity to represent your institution.</li>                       
                         </ul>
                     </div>
                     <h2 className='text-3xl w-fit mx-auto border-b-black border-2 cookie'>Benefits of becoming a Student Ambassador</h2>
