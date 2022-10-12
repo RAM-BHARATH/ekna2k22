@@ -25,17 +25,17 @@ function Main() {
             <img src="/assets/ticket.svg" alt="" className='w-48 mx-auto lg:w-72'/>
           </div>
           <div className='w-4/5 mx-auto lg:w-1/2'>
-            <p className='text-yellow-400 text-lg my-4 font-bold'>** With this ticket, you're eligible to enroll yourself for one Technical and one Non-Technical Event.</p>
+            {/* <p className='text-yellow-400 text-lg my-4 font-bold'>** With this ticket, you're eligible to enroll yourself for one Technical and one Non-Technical Event.</p> */}
             <ul className='mx-auto list-disc text-white font-bold monts'>
               <li className='mx-auto my-1'>It's an one day Inter-college Techno-Cultural fest.</li>
               <li className='mx-auto my-1'>Overall championship will be awarded.</li>
-              <li className='mx-auto my-1'>It's an Inter-departmental fest so that any engineering background can participate.</li>
+              <li className='mx-auto my-1'>It's an Inter-department and inter-college fest so that any college student can participate.</li>
               <li className='mx-auto my-1'>Exciting cash prizes and rewards are waiting for the winners.</li>
               <li className='mx-auto my-1'>Participation certificates will be provided for all the participants.</li>
               <li className='mx-auto my-1'>Lunch will be provided for all participants.</li>
               <li className='mx-auto my-1'>Accommodation and transportation will be provided.</li>
             </ul>
-            <p className='text-cyan-500 text-lg my-4 font-bold'>To get registration done for two events compiling of one technical and one non-technical at just ₹150 of ticket,</p>
+            <p className='text-cyan-500 text-lg my-4 font-bold'>To register for a event with just ₹150 of ticket,</p>
             </div>
         </div>
         <a href="/events" className='px-5 py-2 bg-blue-700 text-2xl text-white rounded-2xl hover:bg-gray-800 hover:text-white gemunu mb-5'>Register</a>
