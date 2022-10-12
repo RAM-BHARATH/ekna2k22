@@ -16,6 +16,10 @@ function Sponsors() {
         sponsorName: 'M3 La-Di-Da',
         sponsorLogo: '/assets/sponsors/m3-la-di-da.jpg',
     },
+    {
+        sponsorName: 'S Collections',
+        sponsorLogo: '/assets/sponsors/s-collections.jpg'
+    }
   ]
 
   const mediaPartners = [
