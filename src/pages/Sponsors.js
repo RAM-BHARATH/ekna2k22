@@ -1,33 +1,12 @@
 import React, { useEffect } from 'react'
 import Header from '../components/Header'
 
-function Sponsors() {
+function Sponsors({ sponsors, mediaPartners }) {
 
     useEffect(()=>{
         document.title = 'Sponsorship | Ekna2k22'
     }, []);
 
-  const sponsors = [
-    {
-        sponsorName: 'Twinbirds',
-        sponsorLogo: '/assets/sponsors/twin-birds.jpeg',
-    },
-    {
-        sponsorName: 'M3 La-Di-Da',
-        sponsorLogo: '/assets/sponsors/m3-la-di-da.jpg',
-    },
-    {
-        sponsorName: 'S Collections',
-        sponsorLogo: '/assets/sponsors/s-collections.jpg'
-    }
-  ]
-
-  const mediaPartners = [
-    {
-        mediaPartnerName: 'Sun Smart TV',
-        mediaPartnerLogo: '/assets/sponsors/sun-smart.jpg',
-    },
-  ]
   return (
     <div className='w-screen pattern-bg-2 min-h-screen text-center'>
         <Header bg='bg-cyan-900'/>

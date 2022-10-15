@@ -469,15 +469,37 @@ function App() {
     },
   ]
 
+  const sponsors = [
+    {
+        sponsorName: 'Twinbirds',
+        sponsorLogo: '/assets/sponsors/twin-birds.jpeg',
+    },
+    {
+        sponsorName: 'M3 La-Di-Da',
+        sponsorLogo: '/assets/sponsors/m3-la-di-da.jpg',
+    },
+    {
+        sponsorName: 'S Collections',
+        sponsorLogo: '/assets/sponsors/s-collections.jpg'
+    }
+  ]
+
+  const mediaPartners = [
+    {
+        mediaPartnerName: 'Sun Smart TV',
+        mediaPartnerLogo: '/assets/sponsors/sun-smart.jpg',
+    },
+  ]
+
 
   return (
     <Router>
       <div>
         <Routes>
-          <Route element={<Home />} path="/" loading/>
+          <Route element={<Home sponsors={sponsors}/>} path="/" loading/>
           <Route element={<Events eventsList={eventsList}/>} path="/events"/>
           <Route element={<StudentAmbassador />} path='/student-ambassador'/>
-          <Route element={<Sponsors />} path='/sponsors'/>
+          <Route element={<Sponsors sponsors={sponsors} mediaPartners={mediaPartners}/>} path='/sponsors'/>
           <Route element={<IndEvent3 indEvent={eventsList[0]}/>} path="/events/tech/1"/>
           <Route element={<IndEvent indEvent={eventsList[1]}/>} path="/events/tech/2"/>
           <Route element={<IndEvent indEvent={eventsList[2]}/>} path="/events/tech/3"/>

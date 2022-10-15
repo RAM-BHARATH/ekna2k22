@@ -4,7 +4,7 @@ import Main from '../components/Main'
 import Loading from '../components/Loading'
 import Footer from '../components/Footer';
 
-function Home({ loading }) {
+function Home({ loading, sponsors }) {
   // useEffect(() => {
   //   if(loading){
   //     return <Loading />
@@ -16,7 +16,7 @@ function Home({ loading }) {
   return (
     <div className="w-screen bg-cyan-900 body scroll-smooth transition-all">
         <Header />
-        <Main />
+        <Main sponsors={sponsors}/>
         <Footer />
     </div>
   )

@@ -1,6 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
-function Main() {
+import { Autoplay, Pagination, Navigation } from "swiper";
+
+function Main({ sponsors }) {
   return (
     <>
       <div className='w-screen min-h-screen flex justify-center items-center img-bg'>
@@ -42,9 +48,43 @@ function Main() {
       </div>
       <div className='w-screen flex flex-col justify-center items-center bg-zinc-800  pb-2'>
         <h2 className='text-5xl lg:text-6xl text-white mb-5 text-center cookie'>Our Sponsors</h2>
-        <div className='flex justify-center p-2'>
+        {/* <div className='flex justify-center p-2'>
           <img src="/assets/sponsors/twin-birds.jpeg" alt="" className='w-2/3 lg:w-96'/>
-        </div>
+        </div> */}
+        {/* <div className="border border-brand-primary border-l-0 border-r-0 container lg:p-20 mt-6 overflow-hidden py-24 relative lg:mx-auto">
+            <div className="flex animate-infinite absolute left-0 lg:w-1/2 lg:mx-auto">
+                <div className="flex w-1/2 justify-between items-center logo lg:mx-auto">
+                    <a href="/" className='mx-2 h-48 w-72'><img src={sponsors[0].sponsorLogo} alt="" className='h-24 w-72'/></a>
+                    <a href="/" className='mx-2 h-48 w-72'><img src={sponsors[1].sponsorLogo} alt="" className='h-24 w-72' /></a>
+                    <a href="/" className='mx-2 h-48 w-72'><img src={sponsors[0].sponsorLogo} alt="" className='h-24 w-72' /></a>
+                    <a href="/" className='mx-2 h-48 w-72'><img src={sponsors[1].sponsorLogo} alt="" className='h-24 w-72' /></a>
+                </div>
+                <div className="flex w-1/2 justify-between items-center logo">
+                    <a href="/" className='mx-2 h-48 w-72'><img src={sponsors[0].sponsorLogo} alt="" className='h-24 w-72' /></a>
+                    <a href="/" className='mx-2 h-48 w-72'><img src={sponsors[1].sponsorLogo} alt="" className='h-24 w-72' /></a>
+                    <a href="/" className='mx-2 h-48 w-72'><img src={sponsors[0].sponsorLogo} alt="" className='h-24 w-72' /></a>
+                    <a href="/" className='mx-2 h-48 w-72'><img src={sponsors[1].sponsorLogo} alt="" className='h-24 w-72' /></a>
+                </div>
+            </div>
+        </div> */}
+        <Swiper
+          spaceBetween={30}
+          centeredSlides={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          modules={[Autoplay, Pagination, Navigation]}
+          className="mySwiper"
+        >
+          <SwiperSlide><img src={sponsors[0].sponsorLogo} alt="" className='h-24 w-72'/></SwiperSlide>
+          <SwiperSlide><img src={sponsors[1].sponsorLogo} alt="" className='h-24 w-72'/></SwiperSlide>
+          <SwiperSlide><img src={sponsors[2].sponsorLogo} alt="" className='h-24 w-72'/></SwiperSlide>
+        </Swiper>
       </div>
     </>
   )
