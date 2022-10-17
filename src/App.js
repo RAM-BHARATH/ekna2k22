@@ -128,7 +128,8 @@ function App() {
         'The teams will get 10 minutes for presentation and followed by question and answer session.',
         'Last day to submit soft copy of your report (via e-mail) will be two days prior presentation.',
         'The participants will have to present their papers in MS power point supported (.ppt Or. pptx ) only.',
-        'The decision of judges will be final and no arguments or appeal will be entertained.'
+        'The decision of judges will be final and no arguments or appeal will be entertained.',
+        'Topics are general and freestyle. You can choose any topic for your presentation.'
       ],
       eventOrganizers: [
         'Geetha N - 8778483779',
