@@ -63,6 +63,16 @@ function NonTechEventTemplateRounds({ indEvent }) {
               ) : ''
             }
             {
+              indEvent.events ? (
+                <>
+                  <h3 className='cookie text-3xl text-left w-full mt-8 mb-4'>Events</h3>
+                  <ul className='list-decimal w-4/5'>
+                      {indEvent.events.map((event, index) => <li key={index} className='monts'>{event}</li>)}
+                  </ul>
+                </>
+              ) : ''
+            }
+            {
               indEvent.themes ? (
                 <>
                   <h3 className='cookie text-3xl text-left w-full mt-8 mb-4'>Themes</h3>

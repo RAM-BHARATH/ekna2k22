@@ -255,11 +255,15 @@ function App() {
       imgUrl: '/assets/event_images/euphony.jpg',
       eventUrl:'events/non-tech/2',
       registrationLink: 'https://forms.gle/y1qxsUgvGdLgNfLA6',
-      description: 'Euphony is a grand solo singing event which is a great platform for all singers to showcase their innate talent through their euphonious voice. So do participate and  gear yourself up for an exhilarating event.',
+      description: 'Euphony is a grand singing event which is a great platform for all singers to showcase their innate talent through their euphonious voice. So do participate and  gear yourself up for an exhilarating event.',
       location: 'Main Campus',
       date: 'Nov 4',
       time: '9am - 9pm',
       prize:["Cash Prizes & Trophy"],
+      events:[
+        'Solo Singing',
+        'Group Singing (Max. 6 participants)'
+      ],
       rules: [
         'Duration of the song can be 3 to 4 minutes.',
         'Song can be Classical/Western',
@@ -509,7 +513,7 @@ function App() {
           <Route element={<IndEvent indEvent={eventsList[5]}/>} path="/events/tech/6"/>
           <Route element={<IndEvent4 indEvent={eventsList[6]}/>} path="/events/tech/7"/>
           <Route element={<NonTechEventTemplateRounds indEvent={eventsList[7]}/>} path="/events/non-tech/1"/>
-          <Route element={<NonTechEventTemplate indEvent={eventsList[8]}/>} path="/events/non-tech/2"/>
+          <Route element={<NonTechEventTemplateRounds indEvent={eventsList[8]}/>} path="/events/non-tech/2"/>
           <Route element={<NonTechEventTemplate indEvent={eventsList[9]}/>} path="/events/non-tech/3"/>
           <Route element={<NonTechEventTemplate indEvent={eventsList[10]}/>} path="/events/non-tech/4"/>
           <Route element={<NonTechEventTemplate indEvent={eventsList[11]}/>} path="/events/non-tech/5"/>
