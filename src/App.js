@@ -11,6 +11,7 @@ import NonTechEventTemplate from './pages/NonTechEventTemplate';
 import NonTechEventTemplateRounds from './pages/NonTechEventTemplateRounds';
 import StudentAmbassador from './pages/StudentAmbassador';
 import Sponsors from './pages/Sponsors';
+import PaperPresentation from './pages/PaperPresentation';
 
 function App() {
   
@@ -117,19 +118,16 @@ function App() {
       time: '9am - 3:30pm',
       prize:["I - ₹2000", "II - ₹1000", "III- Trophy + Certificate"],
       rules: [
-        'Maximum number of participants in a Team is 2',
-        'One person  may not be a part of multiple teams for the same event.',
-        'Paper should be in IEEE Format.',
-        'Abstract should not exceed more than 250 words and Paper should not exceed 15 pages.',
-        'Kindly Mail your abstract, paper and ppt . The difficulties  will be addressed through the same email-id (eknatechnicalevents@gmail.com).',
-        'The mail with submissions should contain: Title- theme of the paper, Names of the authors,Phone no of the authors, E-mail ID’s',
-        'Participants should bring hardcopies and soft-copies of the submitted paper and PowerPoint presentations must be in the .ppt or .pptx format.',
-        'Hard copies should be submitted  before presentation to the judges',
+        'Maximum number of participants in a Team is two.',
+        'One person may not be a part of multiple teams for the same event.',
+        'Paper should be in IEEE Format and should not exceed 15 pages.',
+        'Kindly Mail your softcopy of the paper document and ppt. The difficulties will be addressed through same. Mail ID: eknatechnicalevents@gmail.com.',
+        'The mail of the subject should contain: Title - theme of the paper, Team name and Name of the authors.',
+        'Presentations file must be in the .ppt or .pptx format.',
+        'Hard copies should be submitted to the panel of judges before the starting of presentation.',
         'The teams will get 10 minutes for presentation and followed by question and answer session.',
-        'Last day to submit soft copy of your report (via e-mail) will be two days prior presentation.',
-        'The participants will have to present their papers in MS power point supported (.ppt Or. pptx ) only.',
+        'Last day to submit your softcopy of paper document and ppt (via e-mail) will be two days prior of presentation(02/11/22).',
         'The decision of judges will be final and no arguments or appeal will be entertained.',
-        'Topics are general and freestyle. You can choose any topic for your presentation.'
       ],
       eventOrganizers: [
         'Geetha N - 8778483779',
@@ -508,7 +506,7 @@ function App() {
           <Route element={<IndEvent3 indEvent={eventsList[0]}/>} path="/events/tech/1"/>
           <Route element={<IndEvent indEvent={eventsList[1]}/>} path="/events/tech/2"/>
           <Route element={<IndEvent indEvent={eventsList[2]}/>} path="/events/tech/3"/>
-          <Route element={<IndEvent indEvent={eventsList[3]}/>} path="/events/tech/4"/>
+          <Route element={<PaperPresentation indEvent={eventsList[3]}/>} path="/events/tech/4"/>
           <Route element={<IndEvent indEvent={eventsList[4]}/>} path="/events/tech/5"/>
           <Route element={<IndEvent indEvent={eventsList[5]}/>} path="/events/tech/6"/>
           <Route element={<IndEvent4 indEvent={eventsList[6]}/>} path="/events/tech/7"/>
