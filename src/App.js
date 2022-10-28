@@ -316,10 +316,13 @@ function App() {
       location: 'Main Campus',
       date: 'Nov 4',
       time: '9am - 9pm',
+      events: [
+        'Solo Performance',
+        'Group Performance'
+      ],
       prize:["Cash Prizes & Trophy"],
       rules: [
-        'Minimum: 1 participant, Maximum: 10 participants',
-        'Time limit: 8 minutes',
+        'Group Performance: Maximum: 8 participants',
         'Select any theme accordingly',
         'Carry your own props and costumes',
         'Bring your sound Track',
@@ -388,8 +391,12 @@ function App() {
       date: 'Nov 4',
       time: '9am - 9pm',
       prize:["Cash Prizes & Trophies"],
+      events: [
+        'Solo Performance',
+        'Group Performance'
+      ],
       rules: [
-        'Maximum 7-8 members per team.',
+        'Group performance: Maximum 8 members per team.',
         'Duration : 4-5 minutes',
         'Carry your own properties and things for the performance'
       ],
@@ -411,7 +418,7 @@ function App() {
       prize:["Cash Prizes & Trophies"],
       description: 'Shorty Cutz is a event for Passionate Directors.You can express your Direction skills ! Create your shorty cutz and reveal your Passionate Directors.',
       rules: [
-        'Duration : Maximum 6 minutes',
+        'Duration: Maximum 6 minutes',
         'Any theme of your content',
         'No vulgarity in your videos',
         'Videos should be send before 2 days of the symposium',
@@ -449,7 +456,7 @@ function App() {
       ]
     },
     {
-      eventName: 'QUIZITE (Quiz)',
+      eventName: 'Quizite (Quiz)',
       id: 'event-non-tech-10',
       type: 1,
       imgUrl: '/assets/event_images/quiz.jpg',
@@ -513,10 +520,10 @@ function App() {
           <Route element={<NonTechEventTemplateRounds indEvent={eventsList[7]}/>} path="/events/non-tech/1"/>
           <Route element={<NonTechEventTemplateRounds indEvent={eventsList[8]}/>} path="/events/non-tech/2"/>
           <Route element={<NonTechEventTemplate indEvent={eventsList[9]}/>} path="/events/non-tech/3"/>
-          <Route element={<NonTechEventTemplate indEvent={eventsList[10]}/>} path="/events/non-tech/4"/>
+          <Route element={<NonTechEventTemplateRounds indEvent={eventsList[10]}/>} path="/events/non-tech/4"/>
           <Route element={<NonTechEventTemplate indEvent={eventsList[11]}/>} path="/events/non-tech/5"/>
           <Route element={<NonTechEventTemplateRounds indEvent={eventsList[12]}/>} path="/events/non-tech/6"/>
-          <Route element={<NonTechEventTemplate indEvent={eventsList[13]}/>} path="/events/non-tech/7"/>
+          <Route element={<NonTechEventTemplateRounds indEvent={eventsList[13]}/>} path="/events/non-tech/7"/>
           <Route element={<NonTechEventTemplate indEvent={eventsList[14]}/>} path="/events/non-tech/8"/>
           <Route element={<NonTechEventTemplate indEvent={eventsList[15]}/>} path="/events/non-tech/9"/>
           <Route element={<NonTechEventTemplate indEvent={eventsList[16]}/>} path="/events/non-tech/10"/>
