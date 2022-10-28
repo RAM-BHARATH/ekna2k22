@@ -318,7 +318,7 @@ function App() {
       time: '9am - 9pm',
       prize:["Cash Prizes & Trophy"],
       rules: [
-        'Minimum:6 participants, Maximum: 10 participants',
+        'Minimum: 1 participant, Maximum: 10 participants',
         'Time limit: 8 minutes',
         'Select any theme accordingly',
         'Carry your own props and costumes',
