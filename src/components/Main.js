@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 
 import { Autoplay, Pagination, Navigation } from "swiper";
 
-function Main({ sponsors }) {
+function Main({ sponsors, mediaPartners }) {
   return (
     <>
       <div className='w-screen min-h-screen flex justify-center items-center img-bg'>
@@ -41,7 +41,7 @@ function Main({ sponsors }) {
               <li className='mx-auto my-1'>Lunch will be provided for all participants.</li>
               <li className='mx-auto my-1'>Accommodation and transportation will be provided.</li>
             </ul>
-            <p className='text-cyan-500 text-lg my-4 font-bold'>To register for a event with just ₹150 of ticket,</p>
+            <p className='text-cyan-500 text-lg my-4 font-bold'>To register for any 3 events with just ₹150 of ticket,</p>
             </div>
         </div>
         <a href="/events" className='px-5 py-2 bg-blue-700 text-2xl text-white rounded-2xl hover:bg-gray-800 hover:text-white gemunu mb-5'>Register</a>
@@ -84,6 +84,11 @@ function Main({ sponsors }) {
           <SwiperSlide><img src={sponsors[0].sponsorLogo} alt="" className='h-24 w-72'/></SwiperSlide>
           <SwiperSlide><img src={sponsors[1].sponsorLogo} alt="" className='h-24 w-72'/></SwiperSlide>
           <SwiperSlide><img src={sponsors[2].sponsorLogo} alt="" className='h-24 w-72'/></SwiperSlide>
+          <SwiperSlide><img src={sponsors[3].sponsorLogo} alt="" className='h-24 w-72'/></SwiperSlide>
+          <SwiperSlide><img src={sponsors[4].sponsorLogo} alt="" className='h-24 w-72'/></SwiperSlide>
+          <SwiperSlide><img src={mediaPartners[0].mediaPartnerLogo} alt="" className='h-24 w-72'/></SwiperSlide>
+          {/* { console.log('Media Partners') }
+          { console.log(mediaPartners)} */}
         </Swiper>
       </div>
     </>

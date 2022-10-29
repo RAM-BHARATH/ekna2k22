@@ -46,10 +46,15 @@ function IndEvent({ indEvent }) {
                 <img src="/assets/icons/sand-clock.svg" alt="" className='w-24'/>
                 <div className='my-3'>Lorem</div>
               </div> */}
-              <div className='py-2 px-3 rounded-md bg-cyan-900'>
+            </div>
+              {
+                indEvent.youtubeLink ? (
+                  <iframe className='my-5 w-4/5 lg:h-72 lg:w-96' src={`${indEvent.youtubeLink}`} title={`${indEvent.youtubeTitle}`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                ) : null
+              }
+              <div className='py-2 px-3 rounded-md bg-cyan-900 mb-5'>
                 <a href={indEvent.registrationLink} className='text-white'>Register</a>
               </div>
-            </div>
             <h3 className='cookie text-3xl text-left w-full'>Description</h3>
             <p className='text-justify monts'>{indEvent.description}</p>
             <h3 className='cookie text-3xl text-left w-full mt-8 mb-4'>Rules and Regulations</h3>

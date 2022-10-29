@@ -57,7 +57,9 @@ function App() {
       eventUrl:'events/tech/2',
       type: 0,
       imgUrl: '/assets/event_images/analogy.jpeg',
-      registrationLink: 'https://forms.gle/1AHQajCVTVib8PRN6',
+      registrationLink: 'https://forms.gle/GdoDi4ukfYCBGEcA8',
+      youtubeLink: 'https://youtube.com/embed/CYIEkFuei1g',
+      youtubeTitle: 'Analogy-o-mania! |Ekna2k22 Symposium | Anna University Regional Campus Coimbatore | Department of EEE',
       description: "A game of comparing science with nature . Everyone with a basic knowledge of science can participate in this game. It's a kind of quiz game with so much of fun. The team which get the  highest score will be the winner 🏆.",
       location: 'Main Campus',
       date: 'Nov 4',
@@ -69,7 +71,7 @@ function App() {
         'The game may be conducted in mobile phones so a person from team can join the quiz with their phone and other should not use his/ her phone to search any answer or for other purpose',
         'Persons from different institutions can be a part of the same team. However, one person may not be a part of multiple teams for the same event.',
         'Depending upon scores only winner is decided',
-        'The quiz may be of three rounds. First is filtering round , then semifinals and finals.',
+        'The quiz may be of two rounds. Filtering round and finals.',
         'Violating rules may result in immediate disqualification of the team form the game.',
         'Other information will be given before the starting of event'
       ],
@@ -84,7 +86,9 @@ function App() {
       eventUrl:'events/tech/3',
       type: 0,
       imgUrl: '/assets/event_images/iquid.jpeg',
-      registrationLink: 'https://forms.gle/Lc5n249gf719Q6nC6',
+      registrationLink: 'https://forms.gle/GdoDi4ukfYCBGEcA8',
+      youtubeLink: 'https://youtube.com/embed/Lk6XP4fdpdY',
+      youtubeTitle: 'IQuid | Ekna2k22 Symposium | Anna University Regional Campus Coimbatore | Department of EEE',
       description: 'IQuid is the most unique quest of all the events where all fields of engineering disciplines can participate in it. This event comprises various Mathematical  puzzles to solve in sequential stages with increasing difficulty of finding clues and some challenges for the human IQ and memory in every stage to pass on. The  person who cracks the overall twists and turns will top the event!',
       location: 'Main Campus',
       date: 'Nov 4',
@@ -116,7 +120,7 @@ function App() {
       location: 'Main Campus',
       date: 'Nov 4',
       time: '9am - 3:30pm',
-      prize:["I - ₹2000", "II - ₹1000", "III- Trophy + Certificate"],
+      prize:["I - ₹3000", "II - ₹2500", "III- ₹2000"], //Trophy + Certificate
       rules: [
         'Maximum number of participants in a Team is two.',
         'One person may not be a part of multiple teams for the same event.',
@@ -140,7 +144,9 @@ function App() {
       eventUrl:'events/tech/5',
       type: 0,
       imgUrl: '/assets/event_images/robot-expo.jpeg',
-      registrationLink: 'https://forms.gle/gwP9q1HDop4Kupyi6',
+      registrationLink: 'https://forms.gle/GdoDi4ukfYCBGEcA8',
+      youtubeLink: 'https://youtube.com/embed/jEM0b2QODT0',
+      youtubeTitle: 'Robot Expo | Ekna2k22 Symposium | Anna University Regional Campus Coimbatore | Department of EEE',
       description: "The robot expo where future meets today's possibilities and the participants from various department  can showcase their robots in this expo and their robots will be scrutinized by the panel of judges and the robot which flabbergast the panel will get exciting prizes.",
       location: 'Main Campus',
       date: 'Nov 4',
@@ -164,7 +170,10 @@ function App() {
       eventUrl:'events/tech/6',
       type: 0,
       imgUrl: '/assets/event_images/coder.jpeg',
-      registrationLink: 'https://forms.gle/13rzRoZPURMA2fRMA',
+      registrationLink: 'https://forms.gle/GdoDi4ukfYCBGEcA8',
+      youtubeLink: 'https://youtube.com/embed/DJz344elIo0',
+      // https://www.youtube.com/embed/DJz344elIo0
+      youtubeTitle: 'Mr Coder | Ekna2k22 Symposium | Anna University Regional Campus Coimbatore | Department of EEE',
       description: 'A contest to find the master coder in the room. Participants are faced with challenges like, writing code, debugging code, understanding logic and rewriting code. Marks are rewarded as per difficulty level and difficulty increases through stages. Top three coders will be rewarded and the winner will snatch the title of "Mr. coder" and cash prize.',
       location: 'Main Campus',
       date: 'Nov 4',
@@ -189,7 +198,9 @@ function App() {
       eventUrl:'events/tech/7',
       type: 0,
       imgUrl: '/assets/event_images/water-rocketry.jpeg',
-      registrationLink: 'https://forms.gle/QXFNNLtYPARES5dNA',
+      registrationLink: 'https://forms.gle/GdoDi4ukfYCBGEcA8',
+      youtubeLink: 'https://youtube.com/embed/Zw7SfNpmSUM',
+      youtubeTitle: 'Water Rocketry | Ekna2k22 Symposium | Anna University Regional Campus Coimbatore | Department of EEE',
       description: 'Teams with handmade water rockets compete against each other to find the best rocket among them. Top 3 Water rockets that perfectly manages the best aerodynamics, size  to weight ratio and low wind drag would be rewarded with amazing cash prize and the winner bags the title of "water Rocketry".',
       location: 'Main Playground',
       date: 'Nov 4',
@@ -221,7 +232,7 @@ function App() {
       type: 1,
       imgUrl: '/assets/event_images/solo dance.jpg',
       eventUrl:'events/non-tech/1',
-      registrationLink: 'https://forms.gle/JBQZCfxknUqReLE68',
+      registrationLink: 'https://forms.gle/GdoDi4ukfYCBGEcA8',
       description: 'Do you have a unique skill in dance? Then this contest is for you. Solo dance is a contest that is performed by an Individual with the sound track. Here you can express your own talent &Skills.',
       location: 'Main Campus',
       date: 'Nov 4',
@@ -252,7 +263,7 @@ function App() {
       type: 1,
       imgUrl: '/assets/event_images/euphony.jpg',
       eventUrl:'events/non-tech/2',
-      registrationLink: 'https://forms.gle/y1qxsUgvGdLgNfLA6',
+      registrationLink: 'https://forms.gle/GdoDi4ukfYCBGEcA8',
       description: 'Euphony is a grand singing event which is a great platform for all singers to showcase their innate talent through their euphonious voice. So do participate and  gear yourself up for an exhilarating event.',
       location: 'Main Campus',
       date: 'Nov 4',
@@ -282,7 +293,7 @@ function App() {
       type: 1,
       imgUrl: '/assets/event_images/pica show.jpg',
       eventUrl:'events/non-tech/3',
-      registrationLink: 'https://forms.gle/CLhBBkgG8nGLbKaw6',
+      registrationLink: 'https://forms.gle/GdoDi4ukfYCBGEcA8',
       description: 'PicaShow is a modern art contest where the artists have chance to show their fantastic painting. ',
       location: 'Main Campus',
       date: 'Nov 4',
@@ -311,7 +322,7 @@ function App() {
       type: 1,
       imgUrl: '/assets/event_images/fashion.jpg',
       eventUrl:'events/non-tech/4',
-      registrationLink: 'https://forms.gle/SiTdVHSHCnQExWySA',
+      registrationLink: 'https://forms.gle/GdoDi4ukfYCBGEcA8',
       description: 'Fashion crisco is a show that provides the platform for the fashion designers to showcase their work and skills',
       location: 'Main Campus',
       date: 'Nov 4',
@@ -340,7 +351,7 @@ function App() {
       type: 1,
       imgUrl: '/assets/event_images/standup.jpg',
       eventUrl:'events/non-tech/5',
-      registrationLink: 'https://forms.gle/QtYY8tYEbBA77GYSA',
+      registrationLink: 'https://forms.gle/GdoDi4ukfYCBGEcA8',
       description: 'Slick Standups is nothing but a standup comedy event. It Is An Individual Competition. Participants Will Be Judged On The Basis Of Content, fluency, Spontaneity, Presentation & Sense Of Humor.',
       location: 'Main Campus',
       date: 'Nov 4',
@@ -362,7 +373,7 @@ function App() {
       type: 1,
       imgUrl: '/assets/event_images/photography.jpg',
       eventUrl:'events/non-tech/6',
-      registrationLink: 'https://forms.gle/z4ufAc8EGyQPNaUM9',
+      registrationLink: 'https://forms.gle/GdoDi4ukfYCBGEcA8',
       description: 'Are you the person with the beautiful eyes who captures the moment with your magical device? then this platform is for you to showcase the moments captured by you.',
       location: 'Main Campus',
       date: 'Nov 4',
@@ -385,7 +396,7 @@ function App() {
       type: 1,
       imgUrl: '/assets/event_images/mime.jpg',
       eventUrl:'events/non-tech/7',
-      registrationLink: 'https://forms.gle/PVnBhBAkenG7zJPF6',
+      registrationLink: 'https://forms.gle/GdoDi4ukfYCBGEcA8',
       description: 'Nadiganda is a group mime event. It is a theatrical technique of suggesting action, character or emotion without words, using only gesture, expression and movement .',
       location: 'Main Campus',
       date: 'Nov 4',
@@ -411,7 +422,7 @@ function App() {
       type: 1,
       imgUrl: '/assets/event_images/Short film.jpg',
       eventUrl:'events/non-tech/8',
-      registrationLink: 'https://forms.gle/CUBFL2N2tM2cZd3Z8',
+      registrationLink: 'https://forms.gle/GdoDi4ukfYCBGEcA8',
       location: 'Main Campus',
       date: 'Nov 4',
       time: '9am - 9pm',
@@ -436,7 +447,7 @@ function App() {
       type: 1,
       imgUrl: '/assets/event_images/Euphoria.jpg',
       eventUrl:'events/non-tech/9',
-      registrationLink: 'https://forms.gle/GHauiMkg1vk3yBQFA',
+      registrationLink: 'https://forms.gle/GdoDi4ukfYCBGEcA8',
       description: 'Euphoria is a group dance contest where the dance troops are welcomed to give us a frenetic perfomance.',
       location: 'Main Campus',
       date: 'Nov 4',
@@ -461,7 +472,7 @@ function App() {
       type: 1,
       imgUrl: '/assets/event_images/quiz.jpg',
       eventUrl:'events/non-tech/10',
-      registrationLink: 'https://forms.gle/Ba9cydpn4xohY5L57',
+      registrationLink: 'https://forms.gle/GdoDi4ukfYCBGEcA8',
       description: 'Quizite is a group quiz competition where contestants are welcomed to show their extensive knowledge.',
       location: 'Main Campus',
       date: 'Nov 4',
@@ -491,6 +502,14 @@ function App() {
     {
         sponsorName: 'S Collections',
         sponsorLogo: '/assets/sponsors/s-collections.jpg'
+    },
+    {
+      sponsorName: 'What The Waffle',
+      sponsorLogo: '/assets/sponsors/what-the-waffle.jpeg'
+    },
+    {
+      sponsorName: 'Universal',
+      sponsorLogo: '/assets/sponsors/Universal_Logo.png'
     }
   ]
 
@@ -506,7 +525,7 @@ function App() {
     <Router>
       <div>
         <Routes>
-          <Route element={<Home sponsors={sponsors}/>} path="/" loading/>
+          <Route element={<Home sponsors={sponsors} mediaPartners={mediaPartners}/>} path="/" loading/>
           <Route element={<Events eventsList={eventsList}/>} path="/events"/>
           <Route element={<StudentAmbassador />} path='/student-ambassador'/>
           <Route element={<Sponsors sponsors={sponsors} mediaPartners={mediaPartners}/>} path='/sponsors'/>
