@@ -17,67 +17,32 @@ function App() {
   
   const eventsList = [
     {
-      eventName: 'Electro-Matrix',
-      id: 'event-tech-1',
-      eventUrl:'events/tech/1',
+      eventName: 'Papier Presentella ',
+      id: 'event-tech-4',
+      eventUrl:'events/tech/4',
       type: 0,
-      imgUrl: '/assets/event_images/electro-matrix.jpeg',
-      description: 'Electro-Matrix is the event all about playing with the Electronics with so much of fun and competitiveness. This event consists of tasks like design and debugging of electronic circuits.In Circuit design where the participants will design an electronic circuit in a competitive manner according to the desired O/P and given constraints. In Circuit Debugging, the task is all about the error identification and rectification in the electronic circuit on your way according to the desired O/P.',
-      registrationLink: 'https://forms.gle/UpYawoYRJ2CYz7fV6',
+      imgUrl: '/assets/event_images/paper.jpeg',
+      registrationLink: 'https://forms.gle/uLs9CGBptTmpVdFv6',
+      description: 'Presenting a formal talk to share new information. A technical fest where all the departments can participate to show their way of presenting style, language and how effectively and promptly each one answer the questions. The one who attains the top three will be rewarded.',
       location: 'Main Campus',
       date: 'Nov 4',
       time: '9am - 3:30pm',
-      prize:["I - ₹2000", "II - ₹1000", "III- Trophy + Certificate"],
-      tasks: ['Design of Logic circuit with a Boolean expression in hand ( K-Map simplification may be needed )',
-              'Design amplifier with op-amp at the desired gain .',
-              'Design a circuit to display a desired number with the seven segment display.',
-              'Identify the bug at resistance voltage drop circuit, wheatstone bridge circuit etc...',
-      ],
-      notes: ['At each level after the 8 th minute, the hint paper will be provided if participants in need.',
-              'All Hardware components will be provided for each team'
-      ],
+      prize:["I - ₹3000", "II - ₹2500", "III- ₹2000"], //Trophy + Certificate
       rules: [
-        'The maximum number of  participants per team is 2.',
-        'This event will be conducted in a level wise. Each level consists of One task which is need to be done.',
-        'Each level duration is 15 mins. If one completes the first level only, they can move on to second level.',
-        'In that 15 mins, How fast and accurate the participants completes the task accordingly the scores will be provided at each level.',
-        'At each level after the 8 th minute, the hint paper will be provided if participants in need.',
-        'Depends upon the situation, the number of levels will be decided.',
-        'The scores at each level will be added results the final score. Depends upon the final score, the prizes will be given.',
-        'Judges decision will be the final. No more arguments or appeal will be entertained.'
+        'Maximum number of participants in a Team is two.',
+        'One person may not be a part of multiple teams for the same event.',
+        'Paper should be in IEEE Format and should not exceed 15 pages.',
+        'Kindly Mail your softcopy of the paper document and ppt. The difficulties will be addressed through same. Mail ID: eknatechnicalevents@gmail.com.',
+        'The mail of the subject should contain: Title - theme of the paper, Team name and Name of the authors.',
+        'Presentations file must be in the .ppt or .pptx format.',
+        'Hard copies should be submitted to the panel of judges before the starting of presentation.',
+        'The teams will get 10 minutes for presentation and followed by question and answer session.',
+        'Last day to submit your softcopy of paper document and ppt (via e-mail) will be two days prior of presentation(02/11/22).',
+        'The decision of judges will be final and no arguments or appeal will be entertained.',
       ],
       eventOrganizers: [
-        'Vigneshwaran V - 8072899835',
-        'Naveenraj K -  6380824773'
-      ]
-    },
-    {
-      eventName: 'Analogy-o-Mania!',
-      id: 'event-tech-2',
-      eventUrl:'events/tech/2',
-      type: 0,
-      imgUrl: '/assets/event_images/analogy.jpeg',
-      registrationLink: 'https://forms.gle/GdoDi4ukfYCBGEcA8',
-      youtubeLink: 'https://youtube.com/embed/CYIEkFuei1g',
-      youtubeTitle: 'Analogy-o-mania! |Ekna2k22 Symposium | Anna University Regional Campus Coimbatore | Department of EEE',
-      description: "A game of comparing science with nature . Everyone with a basic knowledge of science can participate in this game. It's a kind of quiz game with so much of fun. The team which get the  highest score will be the winner 🏆.",
-      location: 'Main Campus',
-      date: 'Nov 4',
-      time: '9am - 3:30pm',
-      prize:["I - ₹2000", "II - ₹1000", "III- Trophy + Certificate"],
-      rules: [
-        'There should be maximum 2 members per team',
-        'You can represent your team with a name',
-        'The game may be conducted in mobile phones so a person from team can join the quiz with their phone and other should not use his/ her phone to search any answer or for other purpose',
-        'Persons from different institutions can be a part of the same team. However, one person may not be a part of multiple teams for the same event.',
-        'Depending upon scores only winner is decided',
-        'The quiz may be of two rounds. Filtering round and finals.',
-        'Violating rules may result in immediate disqualification of the team form the game.',
-        'Other information will be given before the starting of event'
-      ],
-      eventOrganizers: [
-        'Gokul K - 6369173273',
-        'Jayaprabakshini V P -  9944256036'
+        'Geetha N - 8778483779',
+        'Ganesh D - 8220424348'
       ]
     },
     {
@@ -110,58 +75,32 @@ function App() {
       ]
     },
     {
-      eventName: 'Papier Presentella ',
-      id: 'event-tech-4',
-      eventUrl:'events/tech/4',
+      eventName: 'Analogy-o-Mania!',
+      id: 'event-tech-2',
+      eventUrl:'events/tech/2',
       type: 0,
-      imgUrl: '/assets/event_images/paper.jpeg',
-      registrationLink: 'https://forms.gle/uLs9CGBptTmpVdFv6',
-      description: 'Presenting a formal talk to share new information. A technical fest where all the departments can participate to show their way of presenting style, language and how effectively and promptly each one answer the questions. The one who attains the top three will be rewarded.',
-      location: 'Main Campus',
-      date: 'Nov 4',
-      time: '9am - 3:30pm',
-      prize:["I - ₹3000", "II - ₹2500", "III- ₹2000"], //Trophy + Certificate
-      rules: [
-        'Maximum number of participants in a Team is two.',
-        'One person may not be a part of multiple teams for the same event.',
-        'Paper should be in IEEE Format and should not exceed 15 pages.',
-        'Kindly Mail your softcopy of the paper document and ppt. The difficulties will be addressed through same. Mail ID: eknatechnicalevents@gmail.com.',
-        'The mail of the subject should contain: Title - theme of the paper, Team name and Name of the authors.',
-        'Presentations file must be in the .ppt or .pptx format.',
-        'Hard copies should be submitted to the panel of judges before the starting of presentation.',
-        'The teams will get 10 minutes for presentation and followed by question and answer session.',
-        'Last day to submit your softcopy of paper document and ppt (via e-mail) will be two days prior of presentation(02/11/22).',
-        'The decision of judges will be final and no arguments or appeal will be entertained.',
-      ],
-      eventOrganizers: [
-        'Geetha N - 8778483779',
-        'Ganesh D - 8220424348'
-      ]
-    },
-    {
-      eventName: 'Robot Expo',
-      id: 'event-tech-5',
-      eventUrl:'events/tech/5',
-      type: 0,
-      imgUrl: '/assets/event_images/robot-expo.jpeg',
+      imgUrl: '/assets/event_images/analogy.jpeg',
       registrationLink: 'https://forms.gle/GdoDi4ukfYCBGEcA8',
-      youtubeLink: 'https://youtube.com/embed/jEM0b2QODT0',
-      youtubeTitle: 'Robot Expo | Ekna2k22 Symposium | Anna University Regional Campus Coimbatore | Department of EEE',
-      description: "The robot expo where future meets today's possibilities and the participants from various department  can showcase their robots in this expo and their robots will be scrutinized by the panel of judges and the robot which flabbergast the panel will get exciting prizes.",
+      youtubeLink: 'https://youtube.com/embed/CYIEkFuei1g',
+      youtubeTitle: 'Analogy-o-mania! |Ekna2k22 Symposium | Anna University Regional Campus Coimbatore | Department of EEE',
+      description: "A game of comparing science with nature . Everyone with a basic knowledge of science can participate in this game. It's a kind of quiz game with so much of fun. The team which get the  highest score will be the winner 🏆.",
       location: 'Main Campus',
       date: 'Nov 4',
       time: '9am - 3:30pm',
       prize:["I - ₹2000", "II - ₹1000", "III- Trophy + Certificate"],
       rules: [
-        'Team Participants should present before 9.00 am for registration and to get place allocation for their respective robots.',
-        'Team participating in this expo must showcase their robot in physical format',
-        'Every team should showcase their robot from 9.00 am to 3.30 p.m.',
-        'Participants should demonstrate their robots to the visitors and the panel.',
-        'Judges decision is the final'
+        'There should be maximum 2 members per team',
+        'You can represent your team with a name',
+        'The game may be conducted in mobile phones so a person from team can join the quiz with their phone and other should not use his/ her phone to search any answer or for other purpose',
+        'Persons from different institutions can be a part of the same team. However, one person may not be a part of multiple teams for the same event.',
+        'Depending upon scores only winner is decided',
+        'The quiz may be of two rounds. Filtering round and finals.',
+        'Violating rules may result in immediate disqualification of the team form the game.',
+        'Other information will be given before the starting of event'
       ],
       eventOrganizers: [
-        'Prabhu V - 9597498264',
-        'Neena Nayak R K - 7299729933'
+        'Gokul K - 6369173273',
+        'Jayaprabakshini V P -  9944256036'
       ]
     },
     {
@@ -224,6 +163,67 @@ function App() {
       eventOrganizers: [
         'Lokesh U E - 7904637424',
         'Mohammed Zahid N - 8883281818'
+      ]
+    },
+    {
+      eventName: 'Robot Expo',
+      id: 'event-tech-5',
+      eventUrl:'events/tech/5',
+      type: 0,
+      imgUrl: '/assets/event_images/robot-expo.jpeg',
+      registrationLink: 'https://forms.gle/GdoDi4ukfYCBGEcA8',
+      youtubeLink: 'https://youtube.com/embed/jEM0b2QODT0',
+      youtubeTitle: 'Robot Expo | Ekna2k22 Symposium | Anna University Regional Campus Coimbatore | Department of EEE',
+      description: "The robot expo where future meets today's possibilities and the participants from various department  can showcase their robots in this expo and their robots will be scrutinized by the panel of judges and the robot which flabbergast the panel will get exciting prizes.",
+      location: 'Main Campus',
+      date: 'Nov 4',
+      time: '9am - 3:30pm',
+      prize:["I - ₹2000", "II - ₹1000", "III- Trophy + Certificate"],
+      rules: [
+        'Team Participants should present before 9.00 am for registration and to get place allocation for their respective robots.',
+        'Team participating in this expo must showcase their robot in physical format',
+        'Every team should showcase their robot from 9.00 am to 3.30 p.m.',
+        'Participants should demonstrate their robots to the visitors and the panel.',
+        'Judges decision is the final'
+      ],
+      eventOrganizers: [
+        'Prabhu V - 9597498264',
+        'Neena Nayak R K - 7299729933'
+      ]
+    },
+    {
+      eventName: 'Electro-Matrix',
+      id: 'event-tech-1',
+      eventUrl:'events/tech/1',
+      type: 0,
+      imgUrl: '/assets/event_images/electro-matrix.jpeg',
+      description: 'Electro-Matrix is the event all about playing with the Electronics with so much of fun and competitiveness. This event consists of tasks like design and debugging of electronic circuits.In Circuit design where the participants will design an electronic circuit in a competitive manner according to the desired O/P and given constraints. In Circuit Debugging, the task is all about the error identification and rectification in the electronic circuit on your way according to the desired O/P.',
+      registrationLink: 'https://forms.gle/UpYawoYRJ2CYz7fV6',
+      location: 'Main Campus',
+      date: 'Nov 4',
+      time: '9am - 3:30pm',
+      prize:["I - ₹2000", "II - ₹1000", "III- Trophy + Certificate"],
+      tasks: ['Design of Logic circuit with a Boolean expression in hand ( K-Map simplification may be needed )',
+              'Design amplifier with op-amp at the desired gain .',
+              'Design a circuit to display a desired number with the seven segment display.',
+              'Identify the bug at resistance voltage drop circuit, wheatstone bridge circuit etc...',
+      ],
+      notes: ['At each level after the 8 th minute, the hint paper will be provided if participants in need.',
+              'All Hardware components will be provided for each team'
+      ],
+      rules: [
+        'The maximum number of  participants per team is 2.',
+        'This event will be conducted in a level wise. Each level consists of One task which is need to be done.',
+        'Each level duration is 15 mins. If one completes the first level only, they can move on to second level.',
+        'In that 15 mins, How fast and accurate the participants completes the task accordingly the scores will be provided at each level.',
+        'At each level after the 8 th minute, the hint paper will be provided if participants in need.',
+        'Depends upon the situation, the number of levels will be decided.',
+        'The scores at each level will be added results the final score. Depends upon the final score, the prizes will be given.',
+        'Judges decision will be the final. No more arguments or appeal will be entertained.'
+      ],
+      eventOrganizers: [
+        'Vigneshwaran V - 8072899835',
+        'Naveenraj K -  6380824773'
       ]
     },
     {
