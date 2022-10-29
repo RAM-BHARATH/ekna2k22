@@ -171,7 +171,7 @@ function App() {
       eventUrl:'events/tech/5',
       type: 0,
       imgUrl: '/assets/event_images/robot-expo.jpeg',
-      registrationLink: 'https://forms.gle/GdoDi4ukfYCBGEcA8',
+      registrationLink: 'https://forms.gle/gwP9q1HDop4Kupyi6',
       youtubeLink: 'https://youtube.com/embed/gwP9q1HDop4Kupyi6',
       youtubeTitle: 'Robot Expo | Ekna2k22 Symposium | Anna University Regional Campus Coimbatore | Department of EEE',
       description: "The robot expo where future meets today's possibilities and the participants from various department  can showcase their robots in this expo and their robots will be scrutinized by the panel of judges and the robot which flabbergast the panel will get exciting prizes.",
