@@ -529,13 +529,13 @@ function App() {
           <Route element={<Events eventsList={eventsList}/>} path="/events"/>
           <Route element={<StudentAmbassador />} path='/student-ambassador'/>
           <Route element={<Sponsors sponsors={sponsors} mediaPartners={mediaPartners}/>} path='/sponsors'/>
-          <Route element={<IndEvent3 indEvent={eventsList[0]}/>} path="/events/tech/1"/>
-          <Route element={<IndEvent indEvent={eventsList[1]}/>} path="/events/tech/2"/>
-          <Route element={<IndEvent indEvent={eventsList[2]}/>} path="/events/tech/3"/>
-          <Route element={<PaperPresentation indEvent={eventsList[3]}/>} path="/events/tech/4"/>
-          <Route element={<IndEvent indEvent={eventsList[4]}/>} path="/events/tech/5"/>
-          <Route element={<IndEvent indEvent={eventsList[5]}/>} path="/events/tech/6"/>
-          <Route element={<IndEvent4 indEvent={eventsList[6]}/>} path="/events/tech/7"/>
+          <Route element={<IndEvent3 indEvent={eventsList[6]}/>} path="/events/tech/1"/>
+          <Route element={<IndEvent indEvent={eventsList[2]}/>} path="/events/tech/2"/>
+          <Route element={<IndEvent indEvent={eventsList[1]}/>} path="/events/tech/3"/>
+          <Route element={<PaperPresentation indEvent={eventsList[0]}/>} path="/events/tech/4"/>
+          <Route element={<IndEvent indEvent={eventsList[5]}/>} path="/events/tech/5"/>
+          <Route element={<IndEvent indEvent={eventsList[3]}/>} path="/events/tech/6"/>
+          <Route element={<IndEvent4 indEvent={eventsList[4]}/>} path="/events/tech/7"/>
           <Route element={<NonTechEventTemplateRounds indEvent={eventsList[7]}/>} path="/events/non-tech/1"/>
           <Route element={<NonTechEventTemplateRounds indEvent={eventsList[8]}/>} path="/events/non-tech/2"/>
           <Route element={<NonTechEventTemplate indEvent={eventsList[9]}/>} path="/events/non-tech/3"/>
