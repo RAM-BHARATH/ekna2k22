@@ -333,7 +333,7 @@ function App() {
       ],
       prize:["Cash Prizes & Trophy"],
       rules: [
-        'Group Performance: Maximum: 8 participants',
+        'Group Performance: Maximum: 10 participants',
         'Select any theme accordingly',
         'Carry your own props and costumes',
         'Bring your sound Track',
@@ -397,7 +397,7 @@ function App() {
       imgUrl: '/assets/event_images/mime.jpg',
       eventUrl:'events/non-tech/7',
       registrationLink: 'https://forms.gle/PVnBhBAkenG7zJPF6',
-      description: 'Nadiganda is a group mime event. It is a theatrical technique of suggesting action, character or emotion without words, using only gesture, expression and movement .',
+      description: 'Nadiganda is a mime event. It is a theatrical technique of suggesting action, character or emotion without words, using only gesture, expression and movement .',
       location: 'Main Campus',
       date: 'Nov 4',
       time: '9am - 9pm',
@@ -429,7 +429,7 @@ function App() {
       prize:["Cash Prizes & Trophies"],
       description: 'Shorty Cutz is a event for Passionate Directors.You can express your Direction skills ! Create your shorty cutz and reveal your Passionate Directors.',
       rules: [
-        'Duration: Maximum 6 minutes',
+        'Duration: Maximum 10 minutes',
         'Any theme of your content',
         'No vulgarity in your videos',
         'Videos should be send before 2 days of the symposium',
